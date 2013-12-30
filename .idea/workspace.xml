@@ -2,27 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90728a6-ff94-494b-9688-fa5f229f499f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cosmoru.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/_layout.php" afterPath="$PROJECT_DIR$/views/_layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.scss" afterPath="$PROJECT_DIR$/css/form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cosmoru.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388357629863" ignored="false" />
-    <file path="/_layout.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388369416964" ignored="false" />
-    <file path="/style.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388369758259" ignored="false" />
+    <file path="/_layout.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388375556741" ignored="false" />
+    <file path="/style.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388375413836" ignored="false" />
     <file path="/icons.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388359881932" ignored="false" />
     <file path="/typography.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388358523677" ignored="false" />
     <file path="/common.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388369394676" ignored="false" />
     <file path="/form.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388365635914" ignored="false" />
     <file path="/section.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388367341820" ignored="false" />
     <file path="/_animate.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388370191093" ignored="false" />
+    <file path="/transitions.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388373578543" ignored="false" />
+    <file path="/_prefix.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388374064384" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_layout.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_layout.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/_layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="38" selection-start="5485" selection-end="5485" vertical-scroll-proportion="-4.4615383">
+            <state line="104" column="37" selection-start="5138" selection-end="5138" vertical-scroll-proportion="0.5673941">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -53,19 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="22" selection-start="4323" selection-end="4323" vertical-scroll-proportion="0.3242236">
+            <state line="403" column="18" selection-start="8554" selection-end="8578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/variables.scss">
+      <file leaf-file-name="_prefix.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mixins/_prefix.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="21" column="71" selection-start="737" selection-end="748" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +73,16 @@
       <file leaf-file-name="form.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+            <state line="21" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="27" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,21 +151,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/font-face.scss" />
         <option value="$PROJECT_DIR$/css/popup.scss" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/list.scss" />
         <option value="$PROJECT_DIR$/css/content.scss" />
         <option value="$PROJECT_DIR$/views/index.php" />
         <option value="$PROJECT_DIR$/css/typography.scss" />
         <option value="$PROJECT_DIR$/css/icons.scss" />
         <option value="$PROJECT_DIR$/css/variables.scss" />
-        <option value="$PROJECT_DIR$/css/form.scss" />
         <option value="$PROJECT_DIR$/css/section.scss" />
         <option value="$PROJECT_DIR$/css/common.scss" />
-        <option value="$PROJECT_DIR$/views/_layout.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/css/mixins/_animate.scss" />
+        <option value="$PROJECT_DIR$/css/transitions.scss" />
+        <option value="$PROJECT_DIR$/css/form.scss" />
+        <option value="$PROJECT_DIR$/css/mixins/_prefix.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/views/_layout.php" />
       </list>
     </option>
   </component>
@@ -400,34 +409,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.021118013">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/keyframes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/transitions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="1" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
@@ -445,13 +426,6 @@
     <entry file="file://$PROJECT_DIR$/css/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -491,15 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="38" selection-start="5485" selection-end="5485" vertical-scroll-proportion="-4.4615383">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mixins/_animate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06335404">
@@ -507,10 +472,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/transitions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="295" selection-end="295" vertical-scroll-proportion="0.21118012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mixins/_prefix.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="71" selection-start="737" selection-end="748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PIE_IE678.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="22" selection-start="4323" selection-end="4323" vertical-scroll-proportion="0.3242236">
+        <state line="403" column="18" selection-start="8554" selection-end="8578" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="37" selection-start="5138" selection-end="5138" vertical-scroll-proportion="0.5673941">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

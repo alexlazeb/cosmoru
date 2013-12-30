@@ -1049,7 +1049,6 @@ form .row {
     height: 22px;
     line-height: 22px;
     background: #fff;
-    font-family: 'pt_sansregular';
     font-style: normal;
     text-align: left;
     border: 1px solid #e6e6e6; }
@@ -1677,7 +1676,6 @@ input[type=text], input[type=password], input[type=tel], input[type=email], text
   height: 22px;
   line-height: 22px;
   background: #fff;
-  font-family: 'pt_sansregular';
   font-style: normal;
   text-align: left;
   border: 1px solid #e6e6e6; }
@@ -1799,14 +1797,17 @@ header {
         background-size: 100%;
         width: 557px;
         height: 42px;
+        line-height: 42px;
         border: medium none;
         padding: 0px 125px 0px 15px;
         color: #b2b2b2;
         font-size: 1.45em; }
         .main-search .row.row-btn input[type=text]::-webkit-input-placeholder, .main-search .row.row-btn .icon::-webkit-input-placeholder {
-          color: #b2b2b2; }
+          color: #b2b2b2;
+          line-height: 42px; }
         .main-search .row.row-btn input[type=text]:-moz-placeholder, .main-search .row.row-btn .icon:-moz-placeholder {
-          color: #b2b2b2; }
+          color: #b2b2b2;
+          line-height: 42px; }
       .main-search .row.row-btn input[type=submit] {
         position: absolute;
         display: block;
@@ -1862,12 +1863,6 @@ aside ul a {
 .module.module-subscribe {
   background: #fff;
   padding: 10px;
-  border-style: solid;
-  border-width: 2px 4px 3px 3px;
-  -moz-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
-  -webkit-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
-  -o-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
-  border-image: url(../img/border_2_color.png) 2 4 3 3 fill round;
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); }
@@ -1879,6 +1874,14 @@ aside ul a {
     .module.module-subscribe .row input:-moz-placeholder {
       color: #333333;
       text-align: center; }
+
+.border-2-color {
+  border-style: solid;
+  border-width: 2px 4px 3px 3px;
+  -webkit-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
+  -moz-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
+  -o-border-image: url(../img/border_2_color.png) 2 4 3 3 round;
+  border-image: url(../img/border_2_color.png) 2 4 3 3 round; }
 
 /*============  S E T T I N G S  ===================*/
 address {

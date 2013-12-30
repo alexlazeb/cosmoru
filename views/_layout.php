@@ -7,7 +7,8 @@
 <head>
     <meta charset="utf-8" />
     <!--[if IE]>
-    <meta http-equiv="" content="IE=edge,chrome=1" />
+    <!--<meta http-equiv="" content="IE=edge,chrome=1" />-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9,chrome=1" />
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
     <![endif]-->
@@ -159,16 +160,18 @@
                     </li>
                 </ul>
             </div>
-            <div class="module module-subscribe round-5">
-                <h3 class="module-title t-center">Подпишитесь на рассылку</h3>
-                <form action="" method="post">
-                    <div class="row">
-                        <input class="box_sizing w100 round-2" type="email" required="" placeholder="E-mail"/>
-                    </div>
-                    <div class="row row-btn">
-                        <input class="btn round-10 btn-green w100" type="submit" value="Подписаться"/>
-                    </div>
-                </form>
+            <div class="module module-subscribe border-2-color pie round-5">
+                <div class="wrap">
+                    <h3 class="module-title t-center">Подпишитесь на рассылку</h3>
+                    <form action="" method="post">
+                        <div class="row">
+                            <input class="box_sizing w100 round-2" type="email" required="" placeholder="E-mail"/>
+                        </div>
+                        <div class="row row-btn">
+                            <input class="btn round-10 btn-green w100" type="submit" value="Подписаться"/>
+                        </div>
+                    </form>
+                </div>
             </div>
         </aside>
         <!-- #sideRight -->

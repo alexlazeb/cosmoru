@@ -51,7 +51,7 @@ function initialise(content) {
                 if(!window.PIE){
                     setTimeout(rrr,50);
                 }else{
-                    $('.foo').each(function () {
+                    $('.pie').each(function () {
                         window.PIE.attach(this);
                     });
                 }
