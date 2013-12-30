@@ -1,0 +1,379 @@
+@import "mixins/_animate";
+@import "mixins/_prefix";
+@import "mixins/_design";
+body:before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 100;
+  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+.hide{display: none;}
+.t-center{text-align: center;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+.center{text-align: center;margin: 0 auto;}
+.block{
+  display: block !important;
+}
+.bold{
+  font-weight:bold;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.clear{
+  clear:both;
+}
+.visible{overflow: visible !important;}
+.no-border{border: medium none !important;}
+.clear-fix:after{
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
+.line-list{
+  &.middle{vertical-align: middle;}
+  display: inline-block;
+  &>li{
+    display: inline-block;
+  }
+}
+.line-list-left{
+  @extend .clear-fix;
+  &>li{
+    display: block;
+    float: left;
+  }
+}
+
+ol.decimal {
+  overflow: hidden;
+  counter-reset: li;
+  /* Инициализируем счетчик */
+  padding: 0;
+  /* Удаляем  установленное по умолчанию левое поле*/
+  list-style: none !important;
+  /* Отменяем нумерацию установленную по умолчанию */ }
+ol.decimal li {
+  position: relative;
+  /* Создаем контекст для позиционирования элементов */
+  margin: 2px 0 0px 0px;
+  font-size: 1.3em;
+  /* Даем каждому элементу списка отступ слева, что бы освободить пространство для нумерации */
+  padding: 8px 8px 11px 30px;}
+ol.decimal li h3 {
+  font-size: 16px;
+  line-height: 27px; }
+ol.decimal li:before {
+  content: counter(li);
+  /* В качестве данных используем счетчик */
+  counter-increment: li;
+  /* Увеличиваем значение счетчика на 1 */
+  /* Позиционируем и оформляем цифры */
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 2em;
+  padding: 12px 15px 20px 6px;
+  //font-size: 1.3em;
+  line-height: 1.3em;
+  //color: $color-link;
+  background: url(../img/i_list_circle.png) 0px 10px no-repeat; }
+
+.box_sizing{
+  position: relative;
+  @include prefix(box-sizing, border-box);
+  //box-sizing: border-box;
+  //-moz-box-sizing: border-box;
+  //-webkit-box-sizing: border-box;
+}
+.round-50p{
+  position: relative;
+  @include prefix(border-radius, 50%);
+  //border-radius: 50%;
+  //-moz-border-radius: 50%;
+  //-webkit-border-radius: 50%;
+}
+.round-10{
+  position: relative;
+  @include prefix(border-radius, 10px);
+  //border-radius: 10px;
+  //-moz-border-radius: 10px;
+  //-webkit-border-radius: 10px;
+}
+.round-15{
+  position: relative;
+  @include prefix(border-radius, 15px);
+  //border-radius: 15px;
+  //-moz-border-radius: 15px;
+  //-webkit-border-radius: 15px;
+}
+.round-5{
+  position: relative;
+  @include prefix(border-radius, 5px);
+  //border-radius: 5px;
+  //-moz-border-radius: 5px;
+  //-webkit-border-radius: 5px;
+}
+.round-2{
+  position: relative;
+  @include prefix(border-radius, 2px);
+  //border-radius: 2px;
+  //-moz-border-radius: 2px;
+  //-webkit-border-radius: 2px;
+}
+.w50{width: 50%;}
+.w33{width: 33.33333%;}
+.w30{width: 30%;}
+.w40{width: 40%;}
+.w60{width: 60%;}
+.w66{width: 66%;}
+.w25{width: 24.8%;}
+.w20{width: 20%;}
+.w22{width: 22%;}
+.w75{width: 74.8%;}
+.w70{width: 69.9%;}
+.w100{width: 100% !important;}
+
+$fill-width:100;
+@for $i from 1 through 100{
+  .w#{$i}{
+    //$temp:round($fill-width/100*$i);
+    width: percentage($i)/100;
+  }
+}
+
+$iconsNumber:5;
+$vertical: 0 38 74 110 148 384 415 446 476;
+@for $i from 1 through 9{
+  $temp:nth($vertical,$i);
+  .icon-#{$i}{
+    background-position: -7px -#{$temp}px;
+    &:hover,&.hover{
+      background-position: -47px -#{$temp}px;
+    }
+    &.fill{
+      background-position: -86px -#{$temp}px;
+    }
+    &:active,&.active{
+      background-position: -125px -#{$temp}px;
+    }
+    &.disable{
+      background-position: -160px -#{$temp}px;
+    }
+  }
+}
+
+
+/*** SNIPPET STARTS ***/
+
+.noise {
+  position: relative;
+  z-index: 1;
+}
+
+.noise:before, .body-noise:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-image: url(data:image/png;base64,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);
+
+}
+
+/*** SNIPPET ENDS ***/
+
+#toTop {
+  display:none;
+  text-decoration:none;
+  position:fixed;
+  z-index: 666;
+  bottom:50px;
+  right:0px;
+  overflow:hidden;
+  width:68px;
+  height:52px;
+  border:none;
+  text-indent:100%;
+  background:url(../img/btn_top.png) no-repeat left top;
+}
+
+#toTopHover {
+  background:url(../img/btn_top.png) no-repeat left top;
+  width:68px;
+  height:52px;
+  display:block;
+  overflow:hidden;
+  float:left;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+  outline:none;
+}
+/* COUNTDOWN */
+#loading {
+  text-align: center;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}
+.countdown_dashboard {
+  height: 110px;
+}
+
+.dash {
+  width: 56px;
+  height: 46px;
+  background: transparent url('../img/dash_digits.jpg') 0 0 no-repeat;
+  float: left;
+  margin-left: 2px;
+  position: relative;
+}
+
+.dash .digit {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  width: 27px;
+  text-align: center;
+  font-family: Times;
+  color: #555;
+  position: relative;
+}
+
+.dash_title {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  right: 6px;
+  font-size: 9pt;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*===========*/
+
+/*===================CheckBox===========================*/
+.niceCheck {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  line-height: 20px;
+  cursor: pointer;
+  background: url(../img/checkbox.png) 0px 0px no-repeat;
+}
+.niceCheck input {
+  display: none;
+}
+
+/*checkbox radio*/
+input.styled-check[type="checkbox"],
+input.styled-radio[type="radio"] {
+  display:none;
+}
+//input[type="checkbox"] + label,
+input.styled-radio[type="radio"] + label {
+  font: 14px normal;
+  color: #27313d;
+  cursor: pointer;
+}
+input.styled-check[type="checkbox"] + label::before,
+input.styled-radio[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px;
+  width: 15px;
+  margin: 0 5px 0 0;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+//background-position: -101px -0px; width: 16px; height: 30px;
+
+input.styled-check[type="checkbox"] + label::before {
+  //background-position: -250px -100px;
+}
+input.styled-radio[type="radio"] + label::before {
+  background-position: -101px -15px;
+}
+input.styled-check[type="checkbox"]:checked + label::before {
+  //background-position: -225px -100px;
+}
+input.styled-radio[type="radio"]:checked + label::before {
+  background-position: -101px -0px;
+}
+input.styled-check[type="checkbox"]:disabled + label::before {
+  //background-position: -250px -100px;
+}
+input.styled-check[type="checkbox"]:checked:disabled + label::before {
+  //background-position: -250px -100px;
+}
+input.styled-radio[type="radio"]:disabled + label::before {
+  background-position: -101px -0px;
+}
+input.styled-radio[type="radio"]:checked:disabled + label::before {
+  background-position: -101px -0px;
+}
+// other icon style
+input.styled-check.big[type="checkbox"]{
+  &.left{
+    &+ label::before{float: left;}
+  }
+  &+label::before{
+    width: 17px;
+    height: 17px;
+  }
+}
+
+input.styled-radio.big[type="radio"] + label::before {
+  height: 18px;
+  width: 18px;
+}
+input.styled-radio.big[type="radio"]:checked + label::before{
+  background-position: -225px -125px;
+}
+input.styled-radio.big[type="radio"] + label::before{
+  background-position: -250px -125px;
+}
+
+
+/* ----style-form---*/
+
+//::-webkit-input-placeholder {
+//  color:#84817e;}
+//:-moz-placeholder {
+//  color:#84817e;}
+//.placeholder {
+//  color:#84817e;}
+//input[data-operaplaceholder]{
+//  color:#84817e;
+//}
+//*:focus::-moz-placeholder { color: transparent !important;}
+//*[autofocus]::-moz-placeholder:focus { color: graytext !important;}
+//*:focus:-moz-placeholder { color: transparent !important;}
+//*[autofocus]:-moz-placeholder:focus { color: graytext !important;}
+//*:focus::-webkit-input-placeholder { color: transparent !important;}
+//*[autofocus]::-webkit-input-placeholder { color: graytext !important;}
+/* ----end-style-form---*/

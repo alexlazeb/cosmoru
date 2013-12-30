@@ -1,0 +1,41 @@
+ul.list-circle{
+  list-style: none;
+  li{
+    list-style: none;
+    background:url(../img/list_circle.png) 0 7px no-repeat;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    p{
+      margin: 0;
+      //line-height: 24px;
+      font-size: 14px;
+    }
+  }
+}
+
+ul.dotted-list{
+  list-style: none;
+  li{
+    list-style: none;
+    padding-left: 10px;
+    background: url(../img/blue_dotted.png) 0 center no-repeat;
+    p{
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+}
+
+ul.dotted-round-list{
+  list-style: none;
+  li{
+    list-style: none;
+    padding-left: 10px;
+    background: url(../img/blue_dotted_round.png) 0 center no-repeat;
+    p{
+      margin: 0;
+      font-size: 13px;
+      color: #686868;
+    }
+  }
+}

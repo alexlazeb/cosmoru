@@ -1,0 +1,49 @@
+@import 'variables';
+form{
+  &.form-blue-style{
+    @extend .form-blue-style;
+  }
+  .row{
+    &:first-child{margin-top: 0;}
+    &.row-btn{margin-bottom: 0;margin-top: 16px;}
+    margin: 8px 0px;
+    input[type=text],input[type=password],input[type=tel],input[type=email]{
+      //@extend .round-5;
+      @extend .box_sizing;
+      &::-webkit-input-placeholder {color: $color-text;}
+      &:-moz-placeholder {color: $color-text;}
+      padding: 0px 10px;
+      color: $color-text;
+      font-size: 1.2em;
+      height: 22px;
+      line-height: 22px;
+      background: #fff;
+      font-family: 'pt_sansregular';
+      font-style: normal;
+      text-align: left;
+      border: 1px solid #e6e6e6;
+    }
+    textarea{
+      @extend .box_sizing;
+      //@extend .round-5;
+      //box-shadow: inset 1px 2px 15px 0px #929292;
+      //-moz-box-shadow: inset 1px 2px 15px 0px #929292;
+      //-webkit-box-shadow: inset 1px 2px 15px 0px #929292;
+      width: 100%;
+      padding-top: 15px;
+      font-size: 1.2em;
+      resize: none;
+      overflow: auto;
+      height: 70px;
+      line-height: normal;
+      color: #5f5f5f;
+      font-size: 1.3em;
+      background: #fff;
+      font-family: 'pt_sansregular';
+      font-style: normal;
+      text-align: left;
+      border: medium none;
+      border-top: 1px solid #d5d5d5;
+    }
+  }
+}

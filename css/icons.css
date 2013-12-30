@@ -1,0 +1,118 @@
+/*====== ICONS ======*/
+.icon {
+  background: url(../img/sprite.png) 0 0 no-repeat;
+  display: inline-block;
+  vertical-align: middle; }
+  .icon.i-ok {
+    background-image: url(../img/list_ok.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 20px; }
+  .icon.i-slider-arrow-left {
+    background-position: -5px 0px;
+    width: 27px;
+    height: 89px; }
+  .icon.i-slider-arrow-right {
+    background-position: -37px 0px;
+    width: 27px;
+    height: 89px; }
+  .icon.i-stick {
+    background-position: -69px 0px;
+    width: 27px;
+    height: 43px; }
+  .icon.i-main-search {
+    background-position: -5px -94px;
+    width: 557px;
+    height: 42px; }
+  .icon.i-arrow-left-btn-red {
+    background-position: -101px 0px;
+    width: 10px;
+    height: 30px; }
+  .icon.i-checkbox {
+    background-position: -116px 0px;
+    width: 16px;
+    height: 30px; }
+  .icon.i-border-2-color {
+    background-position: -137px 0px;
+    width: 32px;
+    height: 28px; }
+  .icon.i-slider-arrow-top {
+    background-position: -174px 0px;
+    width: 89px;
+    height: 27px; }
+  .icon.i-slider-arrow-bottom {
+    background-position: -268px 0px;
+    width: 90px;
+    height: 27px; }
+  .icon.i-cart-white {
+    background-position: -363px 0px;
+    width: 24px;
+    height: 25px; }
+  .icon.i-cart-blue {
+    background-position: -392px 0px;
+    width: 25px;
+    height: 25px; }
+  .icon.i-item-arrow {
+    background-position: -422px 0px;
+    width: 27px;
+    height: 14px; }
+  .icon.i-item-colored {
+    background-position: -454px 0px;
+    width: 10px;
+    height: 10px; }
+  .icon.i-arrow2-top-red {
+    background-position: -469px 0px;
+    width: 13px;
+    height: 9px; }
+  .icon.i-arrow2-top-blue {
+    background-position: -487px 0px;
+    width: 13px;
+    height: 9px; }
+  .icon.i-increase {
+    background-position: -505px 0px;
+    width: 8px;
+    height: 8px; }
+  .icon.i-sort-desc {
+    background-position: -518px 0px;
+    width: 9px;
+    height: 7px; }
+  .icon.i-sort-asc {
+    background-position: -532px 0px;
+    width: 9px;
+    height: 7px; }
+  .icon.i-key {
+    background-position: -518px -12px;
+    width: 15px;
+    height: 7px; }
+  .icon.i-arrow-down-green {
+    background-position: -546px 0px;
+    width: 10px;
+    height: 5px; }
+  .icon.i-arrow-down-red {
+    background-position: -546px -10px;
+    width: 10px;
+    height: 5px; }
+  .icon.i-bg-heading {
+    background-position: -505px -13px;
+    width: 8px;
+    height: 5px; }
+  .icon.i-arrow-down-blue {
+    background-position: -469px -14px;
+    width: 10px;
+    height: 5px; }
+  .icon.i-arrow-top-white {
+    background-position: -484px -14px;
+    width: 12px;
+    height: 5px; }
+  .icon.i-list-dotted {
+    background-position: -538px -12px;
+    width: 3px;
+    height: 3px; }
+  .icon.i-list-disc-line {
+    background-position: -422px -19px;
+    width: 16px;
+    height: 2px; }
+  .icon.i-decrease {
+    background-position: -454px -15px;
+    width: 8px;
+    height: 2px; }

@@ -1,0 +1,86 @@
+/* ------ GLOBAL CSS3 TRANSITIONS ----- */
+.nod{
+  &:hover{
+    -webkit-animation: nod .4s infinite linear;
+    -moz-animation: nod .3s infinite linear;
+    -ms-animation: nod .3s infinite linear;
+    -o-animation: nod .3s infinite linear;
+    animation: nod .4s infinite linear;
+  }
+}
+.anim150{
+  &:hover{
+    -webkit-animation: nod .3s infinite linear;
+    -moz-animation: nod .3s infinite linear;
+    -ms-animation: nod .3s infinite linear;
+    -o-animation: nod .3s infinite linear;
+    animation: nod .3s infinite linear;
+  }
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.ease150{
+  &:hover{
+    -webkit-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    -moz-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    -ms-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    -o-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  }
+  -webkit-transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -moz-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -ms-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  -o-transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.anim300{
+  -webkit-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  -ms-transition: all 350ms ease-in-out;
+  -o-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.anim500{
+  &:hover{}
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+
+.logo:hover #logo,,.logo #logo:hover,.flex-caption:hover{
+ -webkit-animation-name: logo;
+ -webkit-animation-duration: .25s;
+ -webkit-animation-iteration-count: 1;
+ -webkit-animation-timing-function: linear;
+
+ -moz-animation:    logo .25s infinite;
+ -o-animation:    logo .25s infinite;
+ -ms-animation:    logo .25s infinite;
+ animation:    logo .25s linear;
+
+ /* mozilla */
+ //-moz-transform:scale(1.04);
+ //-moz-transition-duration: 250ms;
+ //-moz-transition-timing-function: linear;
+
+ /* opera */
+ //-o-transform:rotate(360deg) scale(1.04);
+ //-o-transition-duration:500ms;
+ //-p-transition-timing-function: linear;
+
+ /* ie */
+ //-ms-transform:rotate(360deg) scale(1.04);
+ //-ms-transform-duration:500ms;
+ //-ms-transform-timing-function: linear;
+}

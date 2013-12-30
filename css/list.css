@@ -1,0 +1,31 @@
+ul.list-circle {
+  list-style: none; }
+  ul.list-circle li {
+    list-style: none;
+    background: url(../img/list_circle.png) 0 7px no-repeat;
+    padding-left: 10px;
+    margin-bottom: 15px; }
+    ul.list-circle li p {
+      margin: 0;
+      font-size: 14px; }
+
+ul.dotted-list {
+  list-style: none; }
+  ul.dotted-list li {
+    list-style: none;
+    padding-left: 10px;
+    background: url(../img/blue_dotted.png) 0 center no-repeat; }
+    ul.dotted-list li p {
+      margin: 0;
+      font-size: 12px; }
+
+ul.dotted-round-list {
+  list-style: none; }
+  ul.dotted-round-list li {
+    list-style: none;
+    padding-left: 10px;
+    background: url(../img/blue_dotted_round.png) 0 center no-repeat; }
+    ul.dotted-round-list li p {
+      margin: 0;
+      font-size: 13px;
+      color: #686868; }
