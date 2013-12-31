@@ -1,3 +1,4 @@
+@import "keyframes";
 /* ------ GLOBAL CSS3 TRANSITIONS ----- */
 .nod{
   &:hover{
@@ -83,4 +84,10 @@
  //-ms-transform:rotate(360deg) scale(1.04);
  //-ms-transform-duration:500ms;
  //-ms-transform-timing-function: linear;
+}
+.cssSpinnerLeft{
+  -moz-animation:  cssSpinnerLeft   .25s infinite;
+  -o-animation:    cssSpinnerLeft .25s infinite;
+  -ms-animation:    cssSpinnerLeft .25s infinite;
+  animation:    cssSpinnerLeft .25s linear;
 }

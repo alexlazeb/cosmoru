@@ -1,6 +1,7 @@
 @import "mixins/_animate";
 @import "mixins/_prefix";
 @import "mixins/_design";
+
 body:before {
   content: "";
   position: fixed;
@@ -18,6 +19,7 @@ body:before {
 .t-left{text-align: left;}
 .t-right{text-align: right;}
 .center{text-align: center;margin: 0 auto;}
+.h-center{margin: 0 auto;display: block !important;}
 .block{
   display: block !important;
 }

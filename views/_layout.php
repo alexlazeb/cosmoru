@@ -118,10 +118,48 @@
         </div>
     </section>
 </section>
-
+<section class="section section-slider content-width visible">
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</section>
 <div id="wrapper">
     <section id="middle" class="cr">
-        <div id="container">
+        <div id="container" class="visible">
             <div id="content">
                 {% block content %}{% endblock %}
             </div><!-- #content-->
@@ -168,7 +206,7 @@
                             <input class="box_sizing w100 round-2" type="email" required="" placeholder="E-mail"/>
                         </div>
                         <div class="row row-btn">
-                            <input class="btn round-10 btn-green w100" type="submit" value="Подписаться"/>
+                            <input class="btn round-15 size-14 btn-green t-shadow w100" type="submit" value="Подписаться"/>
                         </div>
                     </form>
                 </div>

@@ -1,20 +1,24 @@
+@force-import "variables";
+@force-import "common";
+@force-import "icons";
+
 body{
   font-family: 'open_sansregular';
 }
 input[type=submit]{cursor: pointer;}
-H1,H2,h3,h4,h5,h6{color: #27313d;font-family: 'pt_sansbold';line-height: normal;}
+H1,H2,h3,h4,h5,h6{color: #27313d;font-family: 'open_sans_semiboldregular';line-height: normal;}
 h1{
   &.heading{font-size: 29px;}
   font-size: 29px;
 }
 h2{font-size: 19px;margin-bottom: 12px;}
 //h1,h2{font-size: 36px;}
-strong{font-family: 'pt_sansbold';}
+strong{font-family: 'open_sansbold';}
 i{font-family: 'pt_sansitalic';}
 p{line-height: 18px;}
 
 .heading{
-  font-family: 'pt_sansbold';
+  font-family: 'open_sansbold';
   text-transform: uppercase;
   line-height: normal;
   font-size: 1.8em;
@@ -28,3 +32,32 @@ nav{
 .size-12{font-size: 12px !important;}
 .size-13{font-size: 13px !important;}
 .size-14{font-size: 14px !important;}
+.size-15{font-size: 15px !important;}
+.size-16{font-size: 16px !important;}
+.size-18{font-size: 18px !important;}
+.size-20{font-size: 20px !important;}
+
+.t-shadow{
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+.action-text{font-size: 14px;font-family: 'open_sansbold';letter-spacing: -0.1px}
+.product-name{color: #00455e;font-size: 1.5em;}
+.product-price{
+  &.old{text-decoration: line-through;}
+  color: #ee2e24;font-size: 1.4em;
+}
+.section-title{color: #00455e;font-size: 1.6em;margin-bottom: 15px;}
+.section-title{
+  background: url(../img/bg_heading.png) 0 center repeat-x;
+  span{
+    background: #fff;
+    padding: 0px 18px;
+  }
+}
+.all_link{
+  &:hover{span{border: medium none;}}
+  color: #000;font-size: 1.2em;letter-spacing: -0.2px;text-decoration: none;line-height: 1.1;
+  span{
+    border-bottom: 1px dashed #000;display: inline-block;
+  }
+}

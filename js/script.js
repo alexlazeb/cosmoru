@@ -12,19 +12,26 @@ function initialise(content) {
     else if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
     $('html').addClass(OSName);
 
-    $('.sortable-btn a').click(function(){
-        $('.sortable-btn a').removeClass('active');
+    $('.sortable-btn a,.choose_btn').click(function(){
+        $('.sortable-btn a, .choose_btn').removeClass('active');
         $(this).addClass('active');
     });
     $('#main-slider').flexslider({
         animation: 'slide',
         easing: "swing",
         slideshowSpeed: 4000,
-        controlNav: true,
-        directionNav: false,
+        controlNav: false,
+        directionNav: true,
         pauseOnHover: true,
         touch: true
     });
+//    $(function(){
+//        $('.choose_btn').hover(function(){
+//            $('img', this).stop().animate({top:'-' + $('img', this).height() / 2 +'px'},{queue:false,duration:150});
+//        }, function() {
+//            $('img', this).stop().animate({top:'0px'},{queue:false,duration:150});
+//        });
+//    });
 
     if($.browser.msie){
         $('input[placeholder]').each(function(){
