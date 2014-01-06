@@ -33,7 +33,7 @@
     <script src="js/script.js"></script>
 </head>
 
-<body>
+<body class="bg-white">
 
 <header id="header">
     <div class="header-top-panel clear-fix">
@@ -42,7 +42,7 @@
                 <ul class="line-list-left">
                     <li><a href="#">Доставка</a></li>
                     <li><a href="#">Оплата</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="#">Контакты</a></li>
                     <li><a href="#">Совместная покупка</a></li>
                 </ul>
             </nav>
@@ -108,30 +108,67 @@
         </div>
     </section>
 </section>
+
 {% block slider %}{% endblock %}
 
+
 <div id="wrapper">
-    <section id="middle" class="cr">
+    <section id="middle" class="">
         <div id="container" class="visible">
             {% block breadcrumbs %}{% endblock %}
             <div id="content">
-                {% block content %}{% endblock %}
+                {% block content %}
+                <div class="page">
+                    <article>
+                        <div class="contact-info-block clear-fix">
+                            <div class="left w70">
+                                <h1>Контакты</h1>
+                                <p class="biggest">Телефон 7 495 517-72-24, с 10 до 18 по по московскому времени</p>
+                                <p class="biggest">Фактический адрес: г. Москва, ул.Правды д.24 строение 5</p>
+                                <p class="biggest">Юридический адрес: г. Москва, ул.Правды д.24 строение 5</p>
+                                <p class="biggest">E-mail <a href="mailto:cosmoru@cosmoru.ru">cosmoru@cosmoru.ru</a></p>
+                            </div>
+                            <div class="right w28">
+                                <h2>Напишите нам</h2>
+                                <form action="" method="post">
+                                    <div class="row">
+                                        <label class="block">ФИО</label>
+                                        <input type="text" name="fio" class="round-5 w100 big" placeholder=""/>
+                                    </div>
+                                    <div class="row">
+                                        <label class="block">E-mail<span class="required">*</span></label>
+                                        <input type="text" name="email" class="round-5 w100 big" placeholder="" required=""/>
+                                    </div>
+                                    <div class="row">
+                                        <label class="block">Сообщение<span class="required">*</span></label>
+                                        <textarea class="round-5 w100 big" name="message" id="" cols="30" rows="10" required=""></textarea>
+                                    </div>
+                                    <div class="row row-btn">
+                                        <input type="submit" class="btn btn-green round-15 t-center t-shadow"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <h2 class="heading-title">Пункт самовывоза</h2>
+                        <p class="biggest">
+                            Забрать заказ вы можете по адресу Россия, Москва, Камергерский переулок дом 6
+                        </p>
+                        <div class="contact-map w100">
+<!--                            <img src="/img/map.jpg" alt=""/>-->
+                            <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hilHyPsaHIv-dmZ67Quh2x8IxL2saaan&height=470"></script>
+                        </div>
+                    </article>
+                </div>
+                {% endblock %}
             </div><!-- #content-->
         </div><!-- #container-->
-
-        <!--<aside id="sideLeft">-->
-        <!--</aside>-->
-        <!-- #sideLeft -->
-
-        <aside id="sideRight">
-            {% block aside %}{% endblock %}
-        </aside>
-        <!-- #sideRight -->
 
     </section>
 
 </div>
 <!-- #wrapper -->
+
+
 
 <footer id="footer"></footer>
 <!-- #footer -->

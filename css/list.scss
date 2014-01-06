@@ -1,4 +1,5 @@
 @force-import "common";
+@force-import "icons";
 @force-import "variables";
 @force-import "keyframes";
 @force-import "transitions";
@@ -53,8 +54,8 @@ ul.dotted-round-list{
         }
       }
       &:before{
-        @extend .icon;
-        @extend .i-item-arrow;
+        background-image: url(../img/sprite.png);//@extend .icon;
+        background-position: -422px -0px; width: 27px; height: 14px; //@extend .i-item-arrow;
         content: '';
         display: block;
         position: absolute;
@@ -129,6 +130,9 @@ ul.dotted-round-list{
           &:hover{
             @include prefix(transition, all 0.05s, $o:true, $ms:true);
             @include prefix(transform, scale(1.5), $o:true, $ms:true);
+            //filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+            //    M11=1.7320888862379554, M12=-2.2855752193730787,
+            //    M21=2.2855752193730796, M22=1.7320888862379558);
           }
           @include prefix(transition, all 0.1s, $o:true, $ms:true);
           &.active{
@@ -187,6 +191,7 @@ ul.dotted-round-list{
     margin-bottom: 30px;
     margin-left: 2%;
     height: 280px;
+    .btn{z-index: 5;}
     &.full_hidden{
       .all_link{top: -20px;position: relative;}
     }
@@ -234,4 +239,138 @@ ul.dotted-round-list{
     }
   }
 .product-price{display: block;}
+}
+.brend-letter-list{
+  overflow: hidden;
+  margin: 8px 0px 22px 0px;
+  li{
+    line-height: 25px;
+    a{
+      font-size: 1.6em;
+      color: #00455e;
+      line-height: 25px;
+    }
+  }
+}
+
+//.flipper--click:not(.flipper--flipped):hover .flipper__stage {
+//  -webkit-transform: rotateY(-25deg);
+//  -moz-transform: rotateY(-25deg);
+//  -ms-transform: rotateY(-25deg);
+//  -o-transform: rotateY(-25deg);
+//  transform: rotateY(-25deg);
+//}
+.iconboxes .flipper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.iconboxes .flipper__front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border: 2px dashed #3fbbda;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+}
+.iconboxes .flipper__front > .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2;
+  margin: -0.6em;
+  font-size: 4em;
+  color: #3fbbda;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.iconboxes .flipper__front:hover {
+  background: #d9f1f8;
+}
+.iconboxes .flipper__front:hover > .icon {
+  color: #25a2c1;
+}
+//.iconbox {
+//  padding: 30px 20px;
+//  background: #e2f5f9;
+//  color: #3e454c;
+//}
+//.iconbox__icon {
+//  color: #ea2e49;
+//}
+//.iconbox__body {
+//  font-style: italic;
+//}
+
+.flipper {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+.flipper--flipped .flipper__stage,
+.flipper--hover:hover .flipper__stage {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.flipper--flipped .flipper__front,
+.flipper--hover:hover .flipper__front {
+  z-index: 1;
+}
+.flipper--flipped .flipper__back,
+.flipper--hover:hover .flipper__back {
+  z-index: 2;
+}
+.flipper__stage {
+  background: #fff;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.flipper__stage:before,
+.flipper__stage:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.flipper__stage:after {
+  clear: both;
+}
+.flipper__front,
+.flipper__back {
+  background: #fff;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flipper__front {
+  z-index: 2;
+}
+.flipper__back {
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }

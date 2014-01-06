@@ -1,0 +1,11 @@
+.contact-info-block{
+  margin-top: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  p{margin: 0 0 6px;}
+  form{
+    padding-right: 2px;
+    label{font-size: 14px;margin-bottom: 5px;color: #00455e;}
+    .required{color: #ee2e24;}
+  }
+}

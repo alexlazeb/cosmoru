@@ -1,0 +1,50 @@
+@force-import "common";
+@force-import "variables";
+@force-import "keyframes";
+@force-import "transitions";
+
+.filter-block{
+  overflow: hidden;
+  margin-bottom: 20px;
+  color: $color-text;
+  font-size: 13px;
+  a,span{font-size: 13px;color: $color-text;}
+  .filter-list{
+    li{
+      a{
+        &.active{
+          @extend .round-5;
+          text-decoration: none;
+          background-color: #e8f9ff;
+        }
+        @extend .box_sizing;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0px 5px;
+        line-height: 24px;
+        overflow: hidden;
+      }
+      margin-left: 3px;
+    }
+  }
+
+}
+.quick-nav{
+  &.hovered{
+    .menu-item{
+      &:hover{
+        @extend .round-5;
+        @include prefix(box-shadow,0px 0px 8px rgba(0, 43, 73, 0.2));
+      }
+      padding: 1%;
+      margin: 5px 0px;
+    }
+  }
+  &.nav-brend{
+    .sub_cat_list{
+      li{
+        margin-right: 5px;
+      }
+    }
+  }
+}

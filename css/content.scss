@@ -1,6 +1,7 @@
 /* CONTENT STYLE*/
 
 article{
+  &.text{padding-right: 5%;}
   &.main-article{
     h1{width: 90%;}
   }
@@ -22,8 +23,37 @@ article{
   .article-top-section{
     color: #abaeb3; font-size: 13px; margin-bottom: 8px; overflow: hidden;
   }
-  h1{
-    font-size: 22px;font-family: 'pt_sansbold';color: #27313d; clear: both;margin: 10px 0px 15px 0px;
+  h1,h2,h3,h4,h5,h6{
+    color: #00455e;
+    margin-bottom: 6px;
+    font-family: 'open_sans_semiboldregular';
+  }
+  P{
+    &:last-child{margin-bottom: 0;}
+    font-family: 'open_sansregular';
+    line-height: 1.2;
+    font-size: 1.2em;
+    &.big{font-size: 1.5em;}
+    &.biggest{font-size: 1.7em;}
+  }
+  h1{font-size: 30px;}
+  h2{font-size: 22px; color: #00a3df;}
+  h3{font-size: 16px;}
+  ul{
+    &.line-disc{
+      li{
+        background: url(../img/list_disc_line.png) 0 10px no-repeat;
+        padding-left: 20px;
+        margin: 5px 0px;
+      }
+    }
+    li{
+      font-size: 16px;
+      line-height: 1.25;
+      color: $color-text;
+      font-family: 'open_sansregular';
+      p{margin: 0;}
+    }
   }
   .article-news-list{
     li{
@@ -35,3 +65,4 @@ article{
     }
   }
 }
+.brend_letter{font-size: 2.2em;color: #00a3df;font-family: 'open_sans_semiboldregular';}

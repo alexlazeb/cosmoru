@@ -5,6 +5,8 @@
 @import 'common';
 @import 'section';
 @import 'list';
+@import 'page-catalog';
+@import 'page-contact';
 @import 'content';
 @import 'pages';
 @import 'form';
@@ -22,7 +24,7 @@ $width-content:980px;
 $color-text:#333333;
 $color-link:#00a3df;
 $bg-color:#e8f9ff;
-$footer-height:10px;
+$footer-height:0px;
 $footer-bg: transparent;
 $header-bg: transparent;
 
@@ -156,7 +158,7 @@ section>.inner-p,#footer>.inner-p{
 }
 #content {
   padding: 0 0 0 0;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
 }
 /* Sidebar Left
 -----------------------------------------------------------------------------*/
@@ -188,6 +190,24 @@ section>.inner-p,#footer>.inner-p{
 }
 /* END LAYOUT
 -----------------------------------------------------------------------------*/
+body{
+  &.bg-white{
+    background-color: #fff;
+    .section-top{
+      margin: -18px 0px 0px 0px;
+      padding-top: 28px;
+      padding-bottom: 20px;
+      background: $bg-color;
+      @include prefix(box-shadow,inset 0px 2px 20px rgba(0, 43, 73, 0.2));
+    }
+    #header{position: relative;z-index: 10;}
+    #content>div,#content .page{
+      @include prefix(box-shadow,none);
+      padding-bottom: 0px;
+    }
+  }
+}
+
 input[type=text],input[type=password],input[type=tel],input[type=email],textarea{
   //@extend .round-5;
   @extend .box_sizing;
@@ -245,19 +265,24 @@ input[type=text],input[type=password],input[type=tel],input[type=email],textarea
 }
 
 .breadcrumbs{
-  font-size: 11px;
-  color: #374454;
-  line-height: 25px;
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #00455e;
   ul{
     li{
       &:first-child{background: none;padding-left: 0;vertical-align: middle;}
-      vertical-align: -2px;
-      line-height: 25px;
-      background: url(../img/arrow_breadcrumbs.png) 0 45% no-repeat;
-      padding-left: 10px;
+      //vertical-align: -2px;
+      //line-height: 25px;
+      //background: url(../img/arrow_breadcrumbs.png) 0 45% no-repeat;
+      padding-left: 3px;
+      .devider{display: inline-block;margin: 0px 2px;}
+      a{
+        margin-right: 5px;
+      }
       p,span,a{
-        font-size: 11px;
-        color: #374454;
+        font-size: 14px;
+        color: #00455e;
       }
     }
   }
@@ -298,6 +323,27 @@ header{
       margin-left: 12px;
       a{}
     }
+  }
+  .auth-block{
+    .row{margin: 0;}
+    form{
+      input[type=text],input[type=tel],input[type=password],input[type=email]{
+        @extend .round-2;
+        background: #1c353e;
+        border: 1px solid #02678b;
+        height: 20px;
+        line-height: 20px;
+        padding: 0px 5px;
+        color: #fff;
+        margin: 0px 5px;
+        width: 110px;
+      }
+      .btn{
+        margin-left: 5px;
+        padding: 0 15px;
+      }
+    }
+
   }
 }
 .nav-primary{
@@ -351,6 +397,13 @@ header{
         text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
       }
     }
+  }
+}
+.wrapper-full{
+  background: #fff;width: 100%;
+  @include prefix(box-shadow,0px -2px 12px rgba(0, 43, 73, 0.1));
+  .page,#content>div{
+    @include prefix(box-shadow,none);
   }
 }
 #content{
@@ -416,19 +469,126 @@ aside{
       }
     }
   }
+  &.module-sortable{
+    ul{
+      li{
+        &:first-child,&.first,&:nth-child(4n+1){margin-left: 0px;}
+        &.w25{
+          width: 20%;
+          margin: 2%;
+        }
+        @extend .box_sizing;
+        //margin: 8px;
+        text-align: center;
+        a{
+          &.active{
+            @extend .round-2;
+            @include prefix(box-shadow,0px 4px 8px rgba(0, 43, 73, 0.2));
+            background: #fff;
+            text-decoration: none;
+          }
+          display: block;
+          //text-align: center;
+          padding: 6px;
+          font-size: 15px;
+          font-family: 'open_sans_semiboldregular';
+        }
+      }
+    }
+  }
 }
 .content-padding{
   padding: 20px;
+}
+.content-padding-aside{
+  padding: 0px 20px;
 }
 .border-2-color{
   border-style: solid;
   border-width: 2px 4px 3px 3px;
   @include prefix(border-image, url(../img/border_2_color.png) 2 4 3 3 round, $o: true);
 }
+hr{@include prefix(box-sizing,content-box);}
+
+.pagination{
+  overflow: hidden;
+  margin: 10px 0px;
+  ul{
+    li{
+      a{
+        color: #00a3df;
+        font-size: 1.9em;
+      }
+      &:first-child{margin-left: 0px;}
+      &.current{
+        a{text-decoration: none;color: $color-text;font-family: 'open_sans_semiboldregular';cursor: default;}
+      }
+      &.page-btn-hide{
+        a{text-decoration: none;}
+      }
+      span{font-size: 1.9em;}
+      overflow: hidden;
+      margin-left: 20px;
+    }
+  }
+}
+
 ::selection{
   //background: #8fb03d;
   //color: #f4eedf;
 }
+
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2; }
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1; }
+
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s; }
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width; }
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity; }
+
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s; }
+
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+
 
 /*============  S E T T I N G S  ===================*/
 

@@ -1,0 +1,66 @@
+.clear-fix, #header ,#content,#wrapper>section {
+    display: block;
+    zoom:1;
+}
+
+*+html ul.line-list li,.pagination ul.pagination-list li,.footer-btn a.btn{
+    display: inline;
+    zoom:1;
+}
+.soc-btn,.soc-btn>a{
+    display: inline !important;
+    zoom:1;
+}
+.box_sizing,.box-link .heading A.head-link{
+    behavior: url('css/ie/boxsizing.htc');
+    position: relative;
+}
+#header .header-top .lang{width: 90px;}
+article .section-list>.w50,article .event-start>.w50,#contact-form>.w50{width: 49%;}
+#footer .footer-contact-info .footer-btn{width: 550px;}
+#footer .footer-bottom.w100{width: auto !important;}
+/*#wrapper .copyright>div.right{margin-top: -15px;}*/
+
+/* main content slider */
+.content-slider.flexslider .flex-direction-nav a{display: none;}
+.content-slider.flexslider .flex-direction-nav .flex-next {right: 5px; bottom: inherit;}
+.content-slider.flexslider .flex-direction-nav .flex-prev {left: 5px;bottom: inherit;}
+.content-slider.flexslider .flexslider:hover .flex-next {right: 5px;}
+.content-slider.flexslider .flexslider:hover .flex-prev {left: 5px;}
+/*partners slider*/
+.partners-slider ul.slides li a{display: block;}
+.partners-slider ul.slides li a>img{display:block;
+    margin-top: expression((parentNode.offsetHeight.offsetHeight/2)-(parseInt(this.offsetHeight)/2) <0 ? "0" :(parentNode.offsetHeight/2)-(parseInt(this.offsetHeight)/2) +'px');
+}
+.section-content.partners .partners-list li{
+    width: 180px;
+    overflow: hidden;
+    height: expression( this.scrollHeight < 191 ? "190px" : "auto" );
+    width: expression( this.scrollHeight < 181 ? "180px" : "auto" );
+}
+#content ul.list-circle li>p{background: inherit !important;}
+.section-content.partners{margin-bottom: 20px;}
+#contact-form div.row>input{
+    behavior: none;
+}
+/*
+.box-order .box-order-inner{
+    background: url(../../img/box_order_bottom_big.png) 0 bottom no-repeat;
+}
+*/
+/* For order box inset shadow
+.box-order form input[type=text]{
+    background: url(../../img/order_input.png) 0 0 no-repeat;
+    width: 293px !important;
+    height: 34px !important;
+    border: medium none;
+    display: block;
+    line-height: 32px;
+}
+.box-order form input[type=text].ieFocusHack{
+    background: url(../../img/order_input.png) 0 -36px no-repeat;
+    width: 293px !important;
+    height: 34px !important;
+    border: medium none;
+}
+*/

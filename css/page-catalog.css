@@ -1,0 +1,7 @@
+@force-import "common";
+@force-import "variables";
+@force-import "keyframes";
+@force-import "transitions";
+.filter-block {
+  overflow: hidden;
+  margin-bottom: 20px; }

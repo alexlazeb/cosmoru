@@ -1,7 +1,48 @@
 {% extends 'views/_layout.php' %}
+{% block slider %}
+<section class="section section-slider content-width visible">
+    <div id="main-slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="/pic/slider_pic.jpg" alt=""/>
+                    <figcaption>
+                        <div class="wrap">
+                            <div class="flex-title">Совместная покупка</div>
+                            <div class="flex-description">как сэкономить на доставке?</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</section>
+{% endblock %}
 {% block content %}
 
-<div class="page">
+<div class="page pie">
     <div class="quick-nav content-padding w100 clear-fix">
         <div class="menu-item left w25">
             <a class="cat_link block" href="#">Косметика</a>
@@ -312,4 +353,47 @@
     </section>
 </div>
 
+{% endblock %}
+{% block aside %}
+<div class="module">
+    <h3 class="module-title">Популярные бренды </h3>
+    <ul>
+        <li><a href="#">Несколько популярных</a></li>
+        <li><a href="#">Avani</a></li>
+        <li><a href="#">A&D Company Ltd</a></li>
+        <li><a href="#">Always</a></li>
+        <li><a href="#">Abbacino</a></li>
+        <li><a href="#">Artemis Deluxe</a></li>
+        <li class="all_link">
+            <a href="#">Показать все 123</a>
+        </li>
+    </ul>
+</div>
+<div class="module">
+    <h3 class="module-title">Популярные производители</h3>
+    <ul>
+        <li><a href="#">Несколько популярных</a></li>
+        <li><a href="#">Avani</a></li>
+        <li><a href="#">A&D Company Ltd</a></li>
+        <li><a href="#">Always</a></li>
+        <li><a href="#">Abbacino</a></li>
+        <li><a href="#">Artemis Deluxe</a></li>
+        <li class="all_link">
+            <a href="#">Показать все 123</a>
+        </li>
+    </ul>
+</div>
+<div class="module module-subscribe border-2-color pie round-5 pie">
+    <div class="wrap">
+        <h3 class="module-title t-center">Подпишитесь на рассылку</h3>
+        <form action="" method="post">
+            <div class="row">
+                <input class="box_sizing w100 round-2" type="email" required="" placeholder="E-mail"/>
+            </div>
+            <div class="row row-btn">
+                <input class="btn round-15 size-14 btn-green t-shadow w100" type="submit" value="Подписаться"/>
+            </div>
+        </form>
+    </div>
+</div>
 {% endblock %}

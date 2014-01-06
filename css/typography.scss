@@ -46,9 +46,11 @@ nav{
   &.old{text-decoration: line-through;}
   color: #ee2e24;font-size: 1.4em;
 }
+.heading-title{color: #00455e;}
 .section-title{color: #00455e;font-size: 1.6em;margin-bottom: 15px;}
 .section-title{
   background: url(../img/bg_heading.png) 0 center repeat-x;
+  min-height: 5px;
   span{
     background: #fff;
     padding: 0px 18px;

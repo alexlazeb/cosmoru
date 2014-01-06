@@ -11,6 +11,10 @@ form{
     &.row-btn{margin-bottom: 0;margin-top: 16px;}
     margin: 8px 0px;
     input[type=text],input[type=password],input[type=tel],input[type=email]{
+      &.big{
+        height: 28px;
+        line-height: 28px;
+      }
       //@extend .round-5;
       @extend .box_sizing;
       &::-webkit-input-placeholder {color: $color-text;}
@@ -27,6 +31,7 @@ form{
       border: 1px solid #e6e6e6;
     }
     textarea{
+      &.big{height: 150px;}
       @extend .box_sizing;
       //@extend .round-5;
       //box-shadow: inset 1px 2px 15px 0px #929292;
@@ -45,9 +50,71 @@ form{
       font-family: 'pt_sansregular';
       font-style: normal;
       text-align: left;
-      border: medium none;
-      border-top: 1px solid #d5d5d5;
+      border: 1px solid #e6e6e6;
     }
+  }
+  input:focus:invalid,
+  textarea:focus:invalid,
+  select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+  }
+  input:focus:invalid:focus,
+  textarea:focus:invalid:focus,
+  select:focus:invalid:focus {
+    border-color: #e9322d;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+  }
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"],
+  .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #006594;
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+  }
+  textarea:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="date"]:focus,
+  input[type="month"]:focus,
+  input[type="time"]:focus,
+  input[type="week"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="color"]:focus,
+  .uneditable-input:focus {
+    border-color: rgba(82,168,236,0.9);
+    outline: 0;
+    outline: thin dotted \9;
+    @include prefix(box-shadow,0 0 8px rgba(82,168,236,.6));
+    @include prefix(transition,linear .2s, box-shadow linear .2s,$o:true);
+    //-webkit-transition: border linear .2s, box-shadow linear .2s;
+    //-moz-transition: border linear .2s, box-shadow linear .2s;
+    //-o-transition: border linear .2s, box-shadow linear .2s;
+    //transition: border linear .2s, box-shadow linear .2s;
   }
 }
 
@@ -57,6 +124,12 @@ form{
     height: 26px;
     line-height: 26px;
     font-size: 1.4em;
+    padding: 0px 10px;
+  }
+  &.b-smallest{
+    height: 21px;
+    line-height: 21px;
+    font-size: 1.3em;
     padding: 0px 10px;
   }
   &.btn-cart{

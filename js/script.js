@@ -1,6 +1,7 @@
 function include(jsFile){document.write('<script type="text/javascript" src="js/' + jsFile + '"></script>');}
 
 include("jquery.easing.1.3.min.js");
+//include("jquery.isotope.min.js");
 include("jquery.flexslider-min.js");
 
 function initialise(content) {
@@ -12,8 +13,8 @@ function initialise(content) {
     else if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
     $('html').addClass(OSName);
 
-    $('.sortable-btn a,.choose_btn').click(function(){
-        $('.sortable-btn a, .choose_btn').removeClass('active');
+    $('.sortable-btn a,.choose_btn,.module-sortable li a').click(function(){
+        $('.sortable-btn a, .choose_btn,.module-sortable li a').removeClass('active');
         $(this).addClass('active');
     });
     $('#main-slider').flexslider({
@@ -25,11 +26,30 @@ function initialise(content) {
         pauseOnHover: true,
         touch: true
     });
-//    $(function(){
-//        $('.choose_btn').hover(function(){
-//            $('img', this).stop().animate({top:'-' + $('img', this).height() / 2 +'px'},{queue:false,duration:150});
-//        }, function() {
-//            $('img', this).stop().animate({top:'0px'},{queue:false,duration:150});
+
+    //Вход
+    $(".show_link").click(function(){
+        $(this).parent().children('div').removeClass('hide');
+        $(this).parent().parent().children('div.top-panel-tel').addClass('hide');
+        $(this).addClass('hide');
+        return false;
+    });
+
+//    var $container = $('#sortable-product');
+//    $container.imagesLoaded( function(){
+//        $container.isotope({
+//            itemSelector : 'li',
+//            filter: '',
+////            resizable: false,
+////            animationEngine: 'jquery',
+////            name : function ( $elem ) {
+////                return $elem.find('.name').text();
+////            },
+//            animationOptions: {
+//                duration: 750,
+//                easing: 'linear',
+//                queue: false
+//            }
 //        });
 //    });
 
@@ -74,3 +94,6 @@ $(document).ready(function() {
 });
 
 $(document).on('click', 'a[href="#"]', function(e){ e.preventDefault(); });
+// Flipping stuff
+$(document).on('click', '.flipper_link', function(e){ $('.flipper--click').toggleClass("flipper--flipped"); });
+//$(document).tooltip({ selector: '[data-toggle="tooltip"]' });

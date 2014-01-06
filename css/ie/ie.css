@@ -1,0 +1,15 @@
+.clear-fix,#header,#footer,#middle {
+    display: block;
+    zoom:1;
+}
+#middle,#header,#footer,.partners{
+    content: '.';
+    display: block;
+    clear: both;
+}
+.round,.round-10,.round-5,.round-2,.btn,.box,.calculate-block ul.tabs li,.btn_submit{
+    behavior: url('css/ie/PIE.htc');
+    position: relative;
+    zoom: 1;
+}
+.section-product-list > li .back_product_list li,.section-product-list > LI.selected UL LI {margin-left: 8px;}

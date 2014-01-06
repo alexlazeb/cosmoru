@@ -14,7 +14,7 @@ body:before {
   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 }
-.hide{display: none;}
+.hide{display: none !important;}
 .t-center{text-align: center;}
 .t-left{text-align: left;}
 .t-right{text-align: right;}
@@ -34,6 +34,16 @@ body:before {
 }
 .clear{
   clear:both;
+}
+.clear-margins > :first-child,
+.clear-margins > :first-child > :first-child,
+.clear-margins > :first-child > :first-child > :first-child {
+  margin-top: 0;
+}
+.clear-margins > :last-child,
+.clear-margins > :last-child > :last-child,
+.clear-margins > :last-child > :last-child > :last-child {
+  margin-bottom: 0;
 }
 .visible{overflow: visible !important;}
 .no-border{border: medium none !important;}
@@ -59,7 +69,7 @@ body:before {
     float: left;
   }
 }
-
+hr{display: block;height: 0;border: medium none;}
 ol.decimal {
   overflow: hidden;
   counter-reset: li;
