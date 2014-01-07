@@ -47,29 +47,48 @@ ul.dotted-round-list{
 .section-product-list{
   >li{
     &.selected{
-      &.colored{
-        &:before{
-          display: none;
-          position: static;
-        }
-      }
-      &:before{
-        background-image: url(../img/sprite.png);//@extend .icon;
-        background-position: -422px -0px; width: 27px; height: 14px; //@extend .i-item-arrow;
-        content: '';
+      .colored_item_link{
+        &:hover{text-decoration: none;span{border: medium none;}}
         display: block;
         position: absolute;
         top: -7px;
-        left: 50%;
-        margin-left: -13px;
-        background-color: #fff !important;
+        left: 29%;
+        text-align: center;
+        text-decoration: none;
+        background: #fff;
+        padding: 0px 5px;
+        .icon{border: medium none;}
+        span{
+          color: $color-link;
+          border-bottom: 1px dashed $color-link;
+          line-height: 1;
+          font-size: 12px;
+        }
+      }
+      &.colored{}
+      &.flipper--flipped--back{
+        .i-item-arrow{
+          background-position: -422px -0px; width: 27px; height: 14px;
+        }
+        .flipper_link{
+          left: 37%;
+          .text{display: none;}
+        }
+      }
+      .flipper_link{
+        .text{display: inline-block;}
+      }
+      .i-item-arrow{
+        background-position: -454px -0px; width: 10px; height: 10px;
       }
       ul{
         li{
           @extend .box_sizing;
           &:first-child,&.first,&:nth-child(4n+1){margin-left: 0;}
-          margin-left: 10px;
-          margin-bottom: 8px;
+          //margin-left: 10px;
+          //margin-bottom: 8px;
+          margin-left: 5px;
+          margin-bottom: 3px;
           a{
             @extend .box_sizing;
             display: block;
@@ -101,6 +120,7 @@ ul.dotted-round-list{
         }
       }
     }
+
     .back_product_list{
       &.full{
         position: relative;
@@ -129,7 +149,15 @@ ul.dotted-round-list{
           @extend .box_sizing;
           &:hover{
             @include prefix(transition, all 0.05s, $o:true, $ms:true);
-            @include prefix(transform, scale(1.5), $o:true, $ms:true);
+            img{
+              @include prefix(transition, all 0.05s, $o:true, $ms:true);
+              @include prefix(transform, scale(1.5), $o:true, $ms:true);
+              @include prefix(box-shadow, 0px 3px 5px -1px rgba(0,0,0,0.4));
+              @include prefix(border-radius, 50%, $o:true);
+              border: 2px solid white;
+              z-index: 2;
+              position: relative;
+            }
             //filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
             //    M11=1.7320888862379554, M12=-2.2855752193730787,
             //    M21=2.2855752193730796, M22=1.7320888862379558);
@@ -150,6 +178,10 @@ ul.dotted-round-list{
             &:hover{
               @include prefix(transition, none, $o:true, $ms:true);
               @include prefix(transform, scale(1), $o:true, $ms:true);
+              img{
+                @include prefix(transition, none, $o:true, $ms:true);
+                @include prefix(transform, scale(1), $o:true, $ms:true);
+              }
             }
             position: relative;
           }
@@ -160,6 +192,8 @@ ul.dotted-round-list{
             position: relative;
             z-index: 1;
             zoom: 1;
+            @include prefix(border-radius, 50%, $o:true);
+            border: 2px solid white;
           }
         }
 
@@ -246,7 +280,7 @@ ul.dotted-round-list{
   li{
     line-height: 25px;
     a{
-      font-size: 1.6em;
+      font-size: 16px;
       color: #00455e;
       line-height: 25px;
     }
@@ -292,24 +326,6 @@ ul.dotted-round-list{
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
-.iconboxes .flipper__front:hover {
-  background: #d9f1f8;
-}
-.iconboxes .flipper__front:hover > .icon {
-  color: #25a2c1;
-}
-//.iconbox {
-//  padding: 30px 20px;
-//  background: #e2f5f9;
-//  color: #3e454c;
-//}
-//.iconbox__icon {
-//  color: #ea2e49;
-//}
-//.iconbox__body {
-//  font-style: italic;
-//}
-
 .flipper {
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;

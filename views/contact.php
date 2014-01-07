@@ -41,7 +41,7 @@
             <nav role="top-panel" class="top-panel left">
                 <ul class="line-list-left">
                     <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Оплата</a></li>
+                    <li><a href="checkout.html">Оплата</a></li>
                     <li><a href="#">Контакты</a></li>
                     <li><a href="#">Совместная покупка</a></li>
                 </ul>
@@ -71,7 +71,7 @@
         <section class="inner">
             <nav role="main" class="nav-primary clear-fix">
                 <ul class="line-list-left left">
-                    <li><a href="/catalog.html">Косметика</a></li>
+                    <li><a href="catalog.html">Косметика</a></li>
                     <li><a href="#">Парфюмерия</a></li>
                     <li><a href="#">Макияж</a></li>
                     <li><a href="#">Профессионалам</a></li>

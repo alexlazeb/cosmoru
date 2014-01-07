@@ -1,6 +1,10 @@
 function include(jsFile){document.write('<script type="text/javascript" src="js/' + jsFile + '"></script>');}
 
 include("jquery.easing.1.3.min.js");
+include("jquery.mousewheel-3.0.6.pack.js");
+include("jquery.easytabs.min.js");
+include("autocomplete/jquery.autocomplete.js");
+include("autocomplete/jquery.autocomplete.config.js");
 //include("jquery.isotope.min.js");
 include("jquery.flexslider-min.js");
 
@@ -20,13 +24,15 @@ function initialise(content) {
     $('#main-slider').flexslider({
         animation: 'slide',
         easing: "swing",
+//        direction: "horizontal",
         slideshowSpeed: 4000,
+        mousewheel: true,
         controlNav: false,
         directionNav: true,
         pauseOnHover: true,
         touch: true
     });
-
+    $('#checkout-container').easytabs();
     //Вход
     $(".show_link").click(function(){
         $(this).parent().children('div').removeClass('hide');
@@ -52,7 +58,12 @@ function initialise(content) {
 //            }
 //        });
 //    });
-
+//    $('table.hovered tr').hover(function(){
+//        var t= $('.btn_close');
+//        if(t.size()==0){
+//        $('table.hovered tr td:last-child').append('<a class="btn_close" href="#">X</a>');
+//        }
+//    });
     if($.browser.msie){
         $('input[placeholder]').each(function(){
             var input = $(this);
@@ -95,5 +106,8 @@ $(document).ready(function() {
 
 $(document).on('click', 'a[href="#"]', function(e){ e.preventDefault(); });
 // Flipping stuff
-$(document).on('click', '.flipper_link', function(e){ $('.flipper--click').toggleClass("flipper--flipped"); });
+$(document).on('click', '.flipper_link', function(e){
+    $(this).parent().children('.flipper--click').toggleClass('flipper--flipped');
+    $(this).parent().toggleClass('flipper--flipped--back');
+});
 //$(document).tooltip({ selector: '[data-toggle="tooltip"]' });

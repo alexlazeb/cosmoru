@@ -308,7 +308,7 @@ input.styled-radio[type="radio"] {
 //input[type="checkbox"] + label,
 input.styled-radio[type="radio"] + label {
   font: 14px normal;
-  color: #27313d;
+  color: $color-text;
   cursor: pointer;
 }
 input.styled-check[type="checkbox"] + label::before,
@@ -316,8 +316,8 @@ input.styled-radio[type="radio"] + label::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
-  height: 16px;
-  width: 15px;
+  height: 15px;
+  width: 16px;
   margin: 0 5px 0 0;
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
@@ -328,13 +328,13 @@ input.styled-check[type="checkbox"] + label::before {
   //background-position: -250px -100px;
 }
 input.styled-radio[type="radio"] + label::before {
-  background-position: -101px -15px;
+  background-position: -116px -15px;
 }
 input.styled-check[type="checkbox"]:checked + label::before {
   //background-position: -225px -100px;
 }
 input.styled-radio[type="radio"]:checked + label::before {
-  background-position: -101px -0px;
+  background-position: -116px -0px;
 }
 input.styled-check[type="checkbox"]:disabled + label::before {
   //background-position: -250px -100px;
@@ -343,10 +343,10 @@ input.styled-check[type="checkbox"]:checked:disabled + label::before {
   //background-position: -250px -100px;
 }
 input.styled-radio[type="radio"]:disabled + label::before {
-  background-position: -101px -0px;
+  background-position: -116px -15px;
 }
 input.styled-radio[type="radio"]:checked:disabled + label::before {
-  background-position: -101px -0px;
+  background-position: -116px 0px;
 }
 // other icon style
 input.styled-check.big[type="checkbox"]{

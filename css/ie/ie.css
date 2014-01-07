@@ -12,4 +12,4 @@
     position: relative;
     zoom: 1;
 }
-.section-product-list > li .back_product_list li,.section-product-list > LI.selected UL LI {margin-left: 8px;}
+.section-product-list > li .back_product_list li,.section-product-list > LI.selected UL LI {margin-left: 3px;}

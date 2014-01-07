@@ -117,6 +117,51 @@ form{
     //transition: border linear .2s, box-shadow linear .2s;
   }
 }
+// S E L E C T
+.styled-select{
+  @extend .box_sizing;
+  &:after{
+    content: '';
+    position: absolute;
+    display: block;
+    background: url(../img/sprite.png) -72px -57px no-repeat;
+    height: 27px;
+    width: 31px;
+    text-align: center;
+    right: 0;
+    top: 0;
+  }
+  @extend .box_sizing;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #e6e6e6;
+  //background: #fff url(../img/sprite.png) -72px -54px no-repeat;
+  select{
+    &::-ms-expand {
+      display: none; //ie10
+    }
+    @extend .box_sizing;
+    option{
+      @extend .round-5;
+      height: 24px;
+      background: #fff;
+      border: #e6e6e6;
+    }
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 4px;
+    text-indent: 1px;
+    text-overflow: '';
+    background: transparent;
+    width: 100%;
+    height: 28px;
+    border: medium none;
+    line-height: 1;
+    font-size: 13px;
+    color: $color-text;
+  }
+}
 
 // BUTTON
 .btn{
