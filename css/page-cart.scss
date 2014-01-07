@@ -117,12 +117,18 @@ form{
       .styled-select{margin-left: 3px;}
     }
     .row-group{
+      &.green{background: #ddffaf;}
+      &.row-btn{
+        padding: 20px 0px;
+        .btn{margin-left: 20%;}
+      }
       margin-bottom: 20px;
       &.group-checked{
         padding-left: 20%;
         label{width: auto;}
         .row{
-          p{margin-left: 21px;font-family: 'open_sansregular';}
+          p{margin-left: 21px;font-family: 'open_sansregular';margin-bottom: 5px;}
+          a{margin-left: 21px;color: #00a3df;font-size: 12px;}
         }
       }
       .row-notice{margin-left: 8px;color: #000;font-size: 13px;line-height: 1.1;}

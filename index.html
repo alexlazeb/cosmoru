@@ -41,7 +41,7 @@
             <nav role="top-panel" class="top-panel left">
                 <ul class="line-list-left">
                     <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Оплата</a></li>
+                    <li><a href="checkout.html">Оплата</a></li>
                     <li><a href="contact.html">Контакты</a></li>
                     <li><a href="#">Совместная покупка</a></li>
                 </ul>

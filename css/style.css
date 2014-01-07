@@ -1034,6 +1034,8 @@ section.mt20 {
   margin-top: 20px; }
 section.section-top {
   margin: 10px 0px 20px 0px; }
+section.section-checkout {
+  margin-bottom: 40px; }
 
 @force-import "common";
 @force-import "icons";
@@ -1555,13 +1557,24 @@ form .required {
     margin-left: 3px; }
 .section-checkout form .row-group {
   margin-bottom: 20px; }
+  .section-checkout form .row-group.green {
+    background: #ddffaf; }
+  .section-checkout form .row-group.row-btn {
+    padding: 20px 0px; }
+    .section-checkout form .row-group.row-btn .btn {
+      margin-left: 20%; }
   .section-checkout form .row-group.group-checked {
     padding-left: 20%; }
     .section-checkout form .row-group.group-checked label {
       width: auto; }
     .section-checkout form .row-group.group-checked .row p {
       margin-left: 21px;
-      font-family: 'open_sansregular'; }
+      font-family: 'open_sansregular';
+      margin-bottom: 5px; }
+    .section-checkout form .row-group.group-checked .row a {
+      margin-left: 21px;
+      color: #00a3df;
+      font-size: 12px; }
   .section-checkout form .row-group .row-notice {
     margin-left: 8px;
     color: #000;
@@ -2087,7 +2100,7 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
         border-bottom: 1px dashed #00a3df; }
 
 /*
-autocomplete
+------------------- autocomplete -------------------
 */
 .autocomplete-suggestions {
   margin-top: 10px;
