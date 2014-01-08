@@ -391,7 +391,7 @@
                 <input class="box_sizing w100 round-2" type="email" required="" placeholder="E-mail"/>
             </div>
             <div class="row row-btn">
-                <input class="btn round-15 size-14 btn-green t-shadow w100" type="submit" value="Подписаться"/>
+                <input class="btn round-15 size-14 btn-green b-small t-shadow w100" type="submit" value="Подписаться"/>
             </div>
         </form>
     </div>

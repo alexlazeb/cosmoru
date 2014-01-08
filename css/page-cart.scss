@@ -20,7 +20,9 @@
         @include prefix(transition, all 0.15s ease-in-out, $o:true, $ms:true);
         &:hover{
           cursor: pointer;
-          @extend .round-5;
+          border: 1px solid #ededed;
+          //@extend .round-2;
+          @include prefix(border-radius, 4px);
           @include prefix(box-shadow, 0px 0px 10px rgba(0,0,0,0.1));
           @include prefix(transition, all 0.15s ease-in-out, $o:true, $ms:true);
         }
@@ -36,12 +38,19 @@
         }
       }
     }
+    .icon{
+      @include prefix(transition, all .2s linear);
+      text-indent: -9999px;
+      position: absolute;
+      top: 7px;
+      right: 7px;
+    }
   }
   thead{
     text-align: left;
     font-size: 12px;
     color: #b2b2b2;
-    font-family: 'open_sansregular';
+    font-family: 'MyriadPro-Regular';
     td,th{
       font-weight: normal;
       text-align: left;
@@ -55,18 +64,21 @@
         width: 62%;
       }
       &+th{width: 10%; padding-right: 0;text-align: center;}
-      &+th+th{width: 18.9999999%}
+      &+th+th{width: 19.49999999%}
       &+th+th+th{width: 11%;padding-right: 0;}
     }
   }
   tbody{
     tr{
+      border: 1px solid white;
+      margin-bottom: 4px;
       td{
         &:first-child{padding-left: 20px;}
         &:last-child{padding-right: 20px;}
         padding: 20px 10px 20px 0px;
         font-size: 16px;
         color: #00455e;
+        position: relative;
       }
     }
   }
@@ -96,12 +108,12 @@
         }
       }
       a{
-        color: $color-link;
+        //color: $color-link;
       }
     }
     .item_link{
       font-size: 16px;
-      color: $color-link;
+      //color: $color-link;
       margin-bottom: 5px;
     }
   }
@@ -127,7 +139,7 @@ form{
         padding-left: 20%;
         label{width: auto;}
         .row{
-          p{margin-left: 21px;font-family: 'open_sansregular';margin-bottom: 5px;}
+          p{margin-left: 21px;font-family: 'MyriadPro-Regular';margin-bottom: 5px;}
           a{margin-left: 21px;color: #00a3df;font-size: 12px;}
         }
       }
@@ -140,7 +152,7 @@ form{
           color: #999999;
           font-size: 13px;
           padding-top: 5px;
-          font-family: 'open_sansregular';
+          font-family: 'MyriadPro-Regular';
           &::-webkit-input-placeholder {color: #999999;}
           &:-moz-placeholder {color: #999999;}
           &:-ms-input-placeholder { color:#999999; }
@@ -149,7 +161,7 @@ form{
          //font-weight: bold;
           font-weight: normal;
           font-size: 14px;color: #00455e;
-          font-family: 'open_sans_semiboldregular';
+          font-family: 'MyriadPro-Semibold';
           margin-bottom: 4px;
         }
       }

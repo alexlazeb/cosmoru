@@ -2,6 +2,7 @@
 @force-import 'icons';
 @force-import 'typography';
 @force-import 'common';
+@import "mixins/_customs";
 
 /*____________________________________________________
                     M A I N  P A G E
@@ -12,27 +13,30 @@
 #main-slider{
   @extend .box_sizing;
   width: 100%;
-  padding-bottom: 46px;
+  padding-bottom: 40px;
   margin-bottom: -16px;
   background: url(../img/shadow_slider.png) center bottom no-repeat;
   //height: 100%;
   //overflow: hidden;
   &.flexslider{
-    .flex-viewport{border: 3px solid white;overflow: hidden;line-height: 0;}
+    .flex-viewport{border: 3px solid white;overflow: hidden;line-height: 0;height: 300px;}
   }
 }
 .flexslider{
   position: relative;
+  &:hover{
+    .flex-direction-nav li a{@include hp-opacity(1);}
+  }
   .flex-direction-nav{
     position: absolute;
-    top: 50%;
-    margin-top: -60px;
+    top: 48%;
+    margin-top: -63px;
     width: 100%;
     li{
-      &:first-child{float: left;right: inherit;left: -40px;}
+      &:first-child{float: left;right: inherit;left: -45px;}
       float: right;
       position: relative;
-      right: -40px;
+      right: -45px;
       z-index: 20;
       zoom: 1;
     }
@@ -45,6 +49,12 @@
         @extend .icon;
         @extend .i-slider-arrow-right;
       }
+      &:hover{
+        @include hp-opacity(1);
+        @include prefix(transition, all .15s linear);
+      }
+      @include hp-opacity(0.6);
+      @include prefix(transition, all .15s linear);
       display: block;
       text-indent: -9999px;
       background: url(../img/sprite.png) no-repeat;
@@ -64,17 +74,18 @@
       .wrap{
         width: 80%;
         margin: 0 auto;
+        padding: 0 10%;
         //margin-top: 8.8%;
         display: table-cell;
-        height: 300px;
+        height: 290px;
         vertical-align: middle;
       }
       .flex-title{
         display: inline-block;
         font-size: 4.8em;
         line-height: 1.6;
-        font-family: 'open_sansbold';
-        padding: 0px 25px;
+        font-family: 'MyriadPro-Bold';
+        padding: 0px 30px;
         background: #00a2ff; /* Old browsers */
         background: -moz-linear-gradient(top,  #00a2ff 0%, #00c5f7 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00a2ff), color-stop(100%,#00c5f7)); /* Chrome,Safari4+ */
@@ -83,16 +94,17 @@
         background: -ms-linear-gradient(top,  #00a2ff 0%,#00c5f7 100%); /* IE10+ */
         background: linear-gradient(to bottom,  #00a2ff 0%,#00c5f7 100%); /* W3C */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a2ff', endColorstr='#00c5f7',GradientType=0 ); /* IE6-9 */
-
+        text-shadow: 0px 5px 15px rgba(0,0,0,0.2);
       }
       .flex-description{
-        max-width: 80%;
+        max-width: 60%;
         text-transform: uppercase;
         display: inline-block;
         font-size: 2.3em;
         line-height: 1.6;
-        font-family: 'open_sansregular';
-        padding: 0px 25px 10px 25px;
+        letter-spacing: 2px;
+        font-family: 'MyriadPro-Regular';
+        padding: 0px 27px 10px 27px;
         background: #00a2ff; /* Old browsers */
         background: -moz-linear-gradient(top,  #00c5f7 0%, #00d8f2 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00c5f7), color-stop(100%,#00d8f2)); /* Chrome,Safari4+ */
@@ -125,13 +137,13 @@
 .quick-nav{
   @extend .box_sizing;
   padding-top: 0px !important;
-  font-family: 'open_sansregular';
+  font-family: 'MyriadPro-Regular';
   .cat_link{
     color: #00a3df;
     font-size: 1.6em;
-    font-family: 'open_sans_semiboldregular';
+    font-family: 'MyriadPro-Semibold';
     margin-bottom: 5px;
-    letter-spacing: -0.15px;
+    //letter-spacing: -0.15px;
   }
   .menu-item{
     @extend .box_sizing;
@@ -144,18 +156,20 @@
   .sub_cat_list{
     li{
       &:last-child{margin-right: 0;}
-      margin-right: 3.5px;
+      margin-right: 5px;
       color: #00455e;
-      a{font-size: 1.15em;color: #00455e;letter-spacing: -0.25px;}
+      a{font-size: 1.3em;color: #00455e;
+        //letter-spacing: -0.25px;
+      }
     }
   }
 }
 .blue-stripe{
   padding: 12px 0px 10px 0px;
   .action-text{
-    [class*="size-"] {letter-spacing: 0.5px;}
-    //.size-*{letter-spacing: 0.1px;}
-    margin-left: 25%;margin-right: 10px;font-family: 'open_sansbold';
+    [class*="size-"] {
+    }
+    margin-left: 27%;margin-right: 10px;font-family: 'MyriadPro-Bold';
     .label-price{
       @extend .label-price;
     }
@@ -171,96 +185,22 @@
 
 .module{
   &.module-discount{
-    @extend .round-5;
+    //@extend .round-2;
+    @include prefix(border-radius, 4px);
     @extend .box_sizing;
     font-size: 14px;
     margin-bottom: 22px;
     .module-body{
       padding: 15px 12px;
       p{margin: 0;}
-      .btn{font-size: 14px;}
+      .btn{font-size: 18px;font-family: 'MyriadPro-Semibold';}
     }
     .price{
-      font-size: 25px;font-family: 'open_sans_semiboldregular';line-height: 1.25;
+      font-size: 25px;font-family: 'MyriadPro-Semibold';line-height: 1.25;
       margin: 5px 0px 8px 0px;
     }
   }
 }
-
-@mixin css-arrow($box-edge         : bottom,
-$edge-side        : center,
-$arrow-size       : 10px,
-$edge-side-offset : 0,
-$fill-color       : white,
-$border-color     : none,
-$border-style     : border) {
-
-  $box-edge-inverse: bottom;
-  $edge-side-pos: $edge-side;
-  $edge-side-pos-value: 0;
-
-  @if      $box-edge == top    { $box-edge-inverse: bottom; }
-  @else if $box-edge == right  { $box-edge-inverse: left;   }
-  @else if $box-edge == bottom { $box-edge-inverse: top;    }
-  @else if $box-edge == left   { $box-edge-inverse: right;  }
-
-  @if ($box-edge == 'top' or
-       $box-edge == 'bottom') {
-    @if $edge-side == center {
-      $edge-side-pos: left;
-      $edge-side-pos-value: 50%;
-      $edge-side-offset: (-$arrow-size);
-    }
-  }
-  @if ($box-edge == 'left' or
-       $box-edge == 'right') {
-    @if $edge-side == center {
-      $edge-side-pos: top;
-      $edge-side-pos-value: 50%;
-      $edge-side-offset: (-$arrow-size);
-    }
-  }
-  &:after, &:before {
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border: solid rgba(#fff, 0);
-  }
-
-  &:after  {
-    border-color: rgba(#fff, 0);
-    border-width: $arrow-size - 1;
-    #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
-    border-#{$box-edge-inverse}-color: $fill-color;
-    #{$edge-side-pos}: $edge-side-pos-value;
-    margin-#{$edge-side-pos}: $edge-side-offset + 1;
-  }
-
-  @if $border-style == flag {
-    @include prefix(border-radius, 2px);
-    &:before {
-      border-color: rgba(#fff, 0);
-      border-width: $arrow-size - 1;
-      #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
-      border-#{$box-edge-inverse}-color: $border-color;
-      #{$edge-side-pos}: $edge-side-pos-value;
-      margin-#{$edge-side-pos}: $edge-side-offset + 2;
-    }
-  } @else {
-    &:before {
-      border-color: rgba(#fff, 0);
-      border-width: $arrow-size;
-      #{$box-edge}: (-$arrow-size) - $arrow-size;
-      border-#{$box-edge-inverse}-color: $border-color;
-      #{$edge-side-pos}: $edge-side-pos-value;
-      margin-#{$edge-side-pos}: $edge-side-offset;
-    }
-  }
-}
-
-
 
 .arrow {
   @extend .round-5;
@@ -268,14 +208,15 @@ $border-style     : border) {
   @include css-arrow;
   @include prefix(box-shadow, 0px 5px 20px rgba(0,0,0,0.2));
   position: relative;
-  width: 100%;
+  width: auto;
+  //width: 100%;
   min-height: 30px;
   padding: 15px 10px;
   background: white;
   text-align: center;
   &.narrow{
     padding: 15px;
-    p{&.notice{padding: 0;}padding: 0px 5%;}
+    p{&.notice{padding: 0;}padding: 0px 6%;}
   }
   &.default {
     @include css-arrow;
@@ -284,9 +225,9 @@ $border-style     : border) {
     color: #fff;
     a{color: #fff;}
     p{
-      &.notice{font-size: 15px;line-height: 1.2;font-weight: bold;}
-      font-size: 12px;
-      letter-spacing: -0.2px;
+      &.notice{font-size: 15px;line-height: 1.2;font-family: 'MyriadPro-Semibold';padding: 0 5%;}
+      font-size: 13px;
+      //letter-spacing: -0.2px;
       line-height: 18px;
       margin: 0 0 6px;
     }
@@ -334,14 +275,100 @@ $border-style     : border) {
   //  background: $green-light;
   //  @include css-arrow(top, center, 18px, 0, $green-light, $green-darker);
   //}
-  //&.flag {
-  //  color: $green-darkest;
-  //  @include border-radius(3px 0 0 3px);
-  //  background: $green;
-  //  @include box-shadow(0 1px 0 $purple);
-  //  @include css-arrow(right, center, 20px, 0, $green, $purple-dark, flag);
-  //}
+  &.flag {
+    &.red{
+      &:after{
+        left: -28px !important;
+      }
+      @include css-arrow(left, center, 18px, 0, #ff4b42, flag);
+      background: #ff4b42; /* Old browsers */
+      background: -moz-linear-gradient(left,  #ff4b42 1%, #ee2e24 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(1%,#ff4b42), color-stop(100%,#ee2e24)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left,  #ff4b42 1%,#ee2e24 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left,  #ff4b42 1%,#ee2e24 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(left,  #ff4b42 1%,#ee2e24 100%); /* IE10+ */
+      background: linear-gradient(to right,  #ff4b42 1%,#ee2e24 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4b42', endColorstr='#ee2e24',GradientType=1 ); /* IE6-9 */
+
+    }
+     //color: $green-darkest;
+     //@include border-radius(3px 0 0 3px);
+     //background: $green;
+     //@include box-shadow(0 1px 0 $purple);
+     @include css-arrow(left, center, 18px, 0, #fff, flag);
+   }
 }
+.arrow-notice{
+  @extend .arrow;
+  padding: 8px 5px;
+  p{margin: 0 !important;font-size: 14px !important;font-family: 'MyriadPro-Semibold';}
+}
+
+.drop-down-menu{
+  //li.sub:hover>ul{display: block;}
+  li.sub{
+    a{display: block;}
+    >ul{
+      @extend .box_sizing;
+      @extend .round-5;
+      display: block;
+      width: 900px;
+      max-width: 95%;
+      &:before{
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 6px 6px 6px;
+        border-color: transparent transparent #0fbfff transparent
+      }
+      @include prefix(box-shadow, 0 10px 25px rgba(0,34,46,0.3));
+      padding: 20px;
+      background: aqua;
+      list-style: none;
+      margin: 18px 0 0 -1px; /* Чтобы в IE8 не косило. */
+      position: absolute;
+      display: none;
+      left: 0;
+      //top: 20px;
+      color: #fff;
+      background: #10beff; /* Old browsers */
+      background: -moz-linear-gradient(top,  #10beff 0%, #00a3df 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#10beff), color-stop(100%,#00a3df)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #10beff 0%,#00a3df 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #10beff 0%,#00a3df 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #10beff 0%,#00a3df 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  #10beff 0%,#00a3df 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10beff', endColorstr='#00a3df',GradientType=0 ); /* IE6-9 */
+      >li{
+        width: 200px;
+        list-style:none;
+        padding: 0;
+        margin: 0;
+        background: none;
+        a{color: #fff;display: block;}
+      }
+      .item-list{
+        margin: 10px;
+        float: left;
+      }
+    }
+  }
+  li{
+    //float:left;
+    position:relative;
+    display:block;
+    //margin:0 1px;
+    z-index:999;
+    //width:150px;
+  }
+}
+
 
 /*
 ------------------- T A B S ----------------------
@@ -360,11 +387,14 @@ $border-style     : border) {
       a{
         color: #00a3df;
         font-size: 16px;
-        font-weight: bold;
+        font-family: 'MyriadPro-Semibold';
         text-decoration: none;
         span{border-bottom: 1px dashed #00a3df;}
       }
     }
+  }
+  .btn,.btn.btn-green{
+    font-size: 18px;font-family: 'MyriadPro-Semibold';
   }
 }
 

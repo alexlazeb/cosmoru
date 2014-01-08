@@ -71,7 +71,7 @@
         <section class="inner">
             <nav role="main" class="nav-primary clear-fix">
                 <ul class="line-list-left left">
-                    <li><a href="/catalog.html">Косметика</a></li>
+                    <li><a href="catalog.html">Косметика</a></li>
                     <li><a href="#">Парфюмерия</a></li>
                     <li><a href="#">Макияж</a></li>
                     <li><a href="#">Профессионалам</a></li>
@@ -102,7 +102,7 @@
                 </div>
             </form>
         </div>
-        <div class="w14 right t-right cart-block">
+        <div class="w14 v-center t-right cart-block">
             <div class="cart-block-title"><a href="cart.html"><span class="icon i-cart-blue pull-left"></span>Корзина</a></div>
             <div class="items-cart">3 товара на 11 222  р</div>
         </div>
@@ -153,8 +153,8 @@
                                             </div>
                                         </td>
                                         <td>2 222 р</td>
-                                        <td>×2=</td>
-                                        <td>4 444 р</td>
+                                        <td>× <input type="text" class="item_spinner"/> =</td>
+                                        <td>4 444 р <a class="hide icon i-close" href="#">x</a></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -179,8 +179,8 @@
                                             </div>
                                         </td>
                                         <td>2 222 р</td>
-                                        <td>×2=</td>
-                                        <td>4 444 р</td>
+                                        <td>× <input type="text" class="item_spinner"/> =</td>
+                                        <td>4 444 р <a class="hide icon i-close" href="#">x</a></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -205,8 +205,8 @@
                                             </div>
                                         </td>
                                         <td>2 222 р</td>
-                                        <td>×2=</td>
-                                        <td>4 444 р</td>
+                                        <td>× <input type="text" class="item_spinner"/> =</td>
+                                        <td>4 444 р <a class="hide icon i-close" href="#">x</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -234,7 +234,7 @@
                 <div class="module-body t-center">
                     <p>Итого, с учетом скидки:</p>
                     <span class="price block"> 2 222 р</span>
-                    <a class="btn btn-green t-shadow t-center round-15" href="#">К формлению</a>
+                    <a class="btn btn-green w100 t-shadow t-center round-15" href="checkout.html">К формлению</a>
                 </div>
             </div>
             <div class="module module-discount green pie">
@@ -246,7 +246,7 @@
                 <div class="module-body t-center">
                     <p>Итого, с учетом скидки:</p>
                     <span class="price block"> 2 222 р</span>
-                    <a class="btn btn-green t-shadow t-center round-15" href="#">К формлению</a>
+                    <a class="btn btn-green w100 t-shadow t-center round-15" href="checkout.html">К формлению</a>
                 </div>
             </div>
             {% endblock %}

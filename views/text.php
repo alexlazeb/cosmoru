@@ -102,7 +102,7 @@
                 </div>
             </form>
         </div>
-        <div class="w14 right t-right cart-block">
+        <div class="w14 v-center t-right cart-block">
             <div class="cart-block-title"><a href="cart.html"><span class="icon i-cart-blue pull-left"></span>Корзина</a></div>
             <div class="items-cart">3 товара на 11 222  р</div>
         </div>

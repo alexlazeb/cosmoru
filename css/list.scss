@@ -108,8 +108,8 @@ ul.dotted-round-list{
               width: 26px;
               height: 26px;
               position: absolute;
-              top: 2px;
-              left: 2px;
+              top: 4px;
+              left: 4px;
               z-index: 5;
               background: url(../img/choose_active.png) center center no-repeat;
             }
@@ -170,8 +170,8 @@ ul.dotted-round-list{
               width: 26px;
               height: 26px;
               position: absolute;
-              top: 2px;
-              left: 2px;
+              top: 4px;
+              left: 4px;
               z-index: 5;
               background: url(../img/choose_active.png) center center no-repeat;
             }
@@ -227,7 +227,7 @@ ul.dotted-round-list{
     height: 280px;
     .btn{z-index: 5;}
     &.full_hidden{
-      .all_link{top: -20px;position: relative;}
+      .all_link{top: -10px;position: relative;}
     }
     &.colored{
       .colored_item_link{
@@ -253,22 +253,27 @@ ul.dotted-round-list{
     .btn{
       &.b-small{bottom: -13px;}
       position: absolute;
+      width: auto;
       left: inherit;
       bottom: -15px;
     }
-    .back_title{font-size: 1.3em;letter-spacing: -0.2px;margin-bottom: 15px;color: #00455e;
+    .back_title{font-size: 1.4em;
+      //letter-spacing: -0.2px;
+      margin-bottom: 15px;color: #00455e;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
     .all_link{margin-top: 5px;position: relative;z-index: 6;}
     figure{
+      overflow: hidden;
+      padding-right: 1px;
       img{margin-bottom: 15px; }
       .product-name{margin-bottom: 10px;}
       .product_item{
         display: block;
         height: 55px;
         overflow: hidden;
-        font-size: 1.2em;
-        letter-spacing: -0.1px;
-        color: #00a3df;
+        font-size: 1.3em;
+        //letter-spacing: -0.1px;
+        //color: #00a3df;
       }
     }
   }

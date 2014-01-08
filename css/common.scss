@@ -20,6 +20,7 @@ body:before {
 .t-right{text-align: right;}
 .center{text-align: center;margin: 0 auto;}
 .h-center{margin: 0 auto;display: block !important;}
+.v-center{display: table-cell;vertical-align: middle;height: auto;}
 .block{
   display: block !important;
 }
@@ -67,6 +68,12 @@ body:before {
   &>li{
     display: block;
     float: left;
+  }
+}
+.line-list-right{
+  @extend .line-list-left;
+  &>li{
+    float: right;
   }
 }
 hr{display: block;height: 0;border: medium none;}

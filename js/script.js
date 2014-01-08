@@ -3,8 +3,10 @@ function include(jsFile){document.write('<script type="text/javascript" src="js/
 include("jquery.easing.1.3.min.js");
 include("jquery.mousewheel-3.0.6.pack.js");
 include("jquery.easytabs.min.js");
+include("jquery.tooltipster.min.js");
 include("autocomplete/jquery.autocomplete.js");
 include("autocomplete/jquery.autocomplete.config.js");
+include("jquery.spinner.js");
 //include("jquery.isotope.min.js");
 include("jquery.flexslider-min.js");
 
@@ -21,9 +23,11 @@ function initialise(content) {
         $('.sortable-btn a, .choose_btn,.module-sortable li a').removeClass('active');
         $(this).addClass('active');
     });
+    $('.item_spinner').spinner();
     $('#main-slider').flexslider({
         animation: 'slide',
         easing: "swing",
+        slideshow: false,
 //        direction: "horizontal",
         slideshowSpeed: 4000,
         mousewheel: true,
@@ -58,12 +62,30 @@ function initialise(content) {
 //            }
 //        });
 //    });
-//    $('table.hovered tr').hover(function(){
-//        var t= $('.btn_close');
-//        if(t.size()==0){
-//        $('table.hovered tr td:last-child').append('<a class="btn_close" href="#">X</a>');
-//        }
+
+    $('.drop-down-menu li.sub').hover(
+        function() {
+            $('ul', this).slideDown(222);
+        },
+        function() {
+            $('ul', this).slideUp(222);
+        }
+    );
+//    $('.drop-down-menu li.sub').hover(function () {
+//        clearTimeout($.data(this,'timer'));
+//        $('ul',this).stop(true,true).slideDown(200);
+//    }, function () {
+//        $.data(this,'timer', setTimeout($.proxy(function() {
+//            $('ul',this).stop(true,true).slideUp(200);
+//        }, this), 400));
 //    });
+    $(".table-cart-items").delegate("tr","mouseover",function(){
+        $(this).children("td:last-child").children("a").removeClass("hide");
+    });
+    $(".table-cart-items").delegate("tr","mouseout",function(){
+        $(this).children("td:last-child").children("a").addClass("hide");
+    });
+
     if($.browser.msie){
         $('input[placeholder]').each(function(){
             var input = $(this);

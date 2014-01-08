@@ -1,4 +1,6 @@
 AddDefaultCharset utf-8
+AddType font/opentype .svg .svgz
+AddEncoding gzip .svgz
 Options +FollowSymLinks
 IndexIgnore */*
 RewriteEngine on
