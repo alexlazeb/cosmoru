@@ -380,5 +380,18 @@ form{
   }
 }
 
-
+.slider_amount{
+  &.shadow{
+    @include prefix(box-shadow, inset 0px 1px 1px rgba(0,0,0,0.6));
+  }
+  @extend .box_sizing;
+  @include prefix(border-radius, 3px);
+  border: medium none !important;
+  margin: 8px 0px;
+  height: auto !important;
+  line-height: 30px !important;
+  color: #002735 !important;
+  font-size: 15px;
+  font-family: 'MyriadPro-Semibold';
+}
 

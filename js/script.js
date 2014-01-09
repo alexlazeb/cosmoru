@@ -9,6 +9,7 @@ include("autocomplete/jquery.autocomplete.config.js");
 include("jquery.spinner.js");
 //include("jquery.isotope.min.js");
 include("jquery.flexslider-min.js");
+include("jcarousellite_1.0.1.pack.js");
 
 function initialise(content) {
 
@@ -36,6 +37,18 @@ function initialise(content) {
         pauseOnHover: true,
         touch: true
     });
+    $('#watched-product-slider .slider-wrap').jCarouselLite({
+        btnNext: ".btn-control .btn-v-next",
+        btnPrev: ".btn-control .btn-v-prev",
+        start: 0,
+        vertical: true,
+        visible: 3,
+        speed: 333,
+        scroll: 1,
+        circular: false,
+        mousewheel: true
+    });
+
     // The slider being synced must be initialized first
     $('#carousel-item').flexslider({
         animation: "slide",

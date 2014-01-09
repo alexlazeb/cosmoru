@@ -31,7 +31,6 @@
     <script src="js/jquery.js"></script>
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="js/modernizr.js"></script>
-    <!-- Add fancyBox main JS and CSS files -->
     <script src="js/script.js"></script>
 </head>
 
@@ -303,23 +302,10 @@
 
 <section class="section section-top">
     <section class="inner visible clear-fix">
-        <div class="logo left">
-            <a id="logo" href="/">COSMORU - косметика рунета</a>
-        </div>
-        <div class="left main-search">
-            <form action="" method="post">
-                <div class="row row-btn">
-                    <input type="text" placeholder="Поиск по товарам, артикулам, брендам и производителям"/>
-                    <input type="submit" value="Найти"/>
-                </div>
-            </form>
-        </div>
-        <div class="w14 v-center t-right cart-block">
-            <div class="cart-block-title"><a href="cart.html"><span class="icon i-cart-blue pull-left"></span>Корзина</a></div>
-            <div class="items-cart">3 товара на 11 222  р</div>
-        </div>
+        {% block section_top %}{% endblock %}
     </section>
 </section>
+
 {% block slider %}{% endblock %}
 <section class="section inner">
     {% block breadcrumbs %}{% endblock %}
@@ -337,9 +323,7 @@
         <!--</aside>-->
         <!-- #sideLeft -->
 
-        <aside id="sideRight">
-            {% block aside %}{% endblock %}
-        </aside>
+       {% block aside %}{% endblock %}
         <!-- #sideRight -->
 
     </section>

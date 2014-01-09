@@ -1,4 +1,21 @@
 {% extends 'views/_layout.php' %}
+{% block section_top %}
+<div class="logo left">
+    <a id="logo" href="/">COSMORU - косметика рунета</a>
+</div>
+<div class="left main-search">
+    <form action="" method="post">
+        <div class="row row-btn">
+            <input type="text" placeholder="Поиск по товарам, артикулам, брендам и производителям"/>
+            <input type="submit" value="Найти"/>
+        </div>
+    </form>
+</div>
+<div class="w14 v-center t-right cart-block">
+    <div class="cart-block-title"><a href="cart.html"><span class="icon i-cart-blue pull-left"></span>Корзина</a></div>
+    <div class="items-cart">3 товара на 11 222  р</div>
+</div>
+{% endblock %}
 {% block slider %}
 <section class="section section-slider content-width visible">
     <div id="main-slider" class="flexslider-main">
@@ -355,6 +372,7 @@
 
 {% endblock %}
 {% block aside %}
+<aside id="sideRight">
 <div class="module">
     <h3 class="module-title">Популярные бренды </h3>
     <ul>
@@ -396,4 +414,5 @@
         </form>
     </div>
 </div>
+</aside>
 {% endblock %}

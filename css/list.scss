@@ -308,7 +308,42 @@ ul.dotted-round-list{
     }
   }
 }
+.watched-product-list{
+  li{
+    @include prefix(box-shadow, 0px 5px 15px rgba(255,255,255,.25));
+    &:first-child{margin-top: 0px;}
+    background: #fff;
+    margin: 20px 0px;
+    padding: 20px 10px;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    img{
+      margin-bottom: 15px;
+    }
+    figcaption{
+      margin-bottom: 15px;
+    }
+    .product-name{margin-bottom: 12px;}
+    a,.product_item{display: block;margin-bottom: 12px;}
+    .btn{
+      padding: 0px 8px;
+      >.icon{
+        margin-left: 4px;
+      }
+      >span:first-child{
+        padding-right: 9px;
+        padding-left: 3px;
+      }
+      //text-align: left;
+    }
+  }
+
+}
+
 /*end page card*/
+
+
 .brend-letter-list{
   overflow: hidden;
   margin: 8px 0px 22px 0px;

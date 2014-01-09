@@ -275,8 +275,8 @@
             </div><!-- #content-->
         </div><!-- #container-->
 
+        {% block aside %}
         <aside id="sideRight">
-            {% block aside %}
             <div class="module module-discount grey mt70 pie">
                 <div class="arrow red pie t-center">
                     <p class="notice">До выбранной скидки не хватает 1 300 р.</p>
@@ -307,8 +307,8 @@
                     <a class="btn btn-green t-shadow t-center round-15" href="#">К формлению</a>
                 </div>
             </div>
-            {% endblock %}
         </aside>
+        {% endblock %}
         <!-- #sideRight -->
 
     </section>
