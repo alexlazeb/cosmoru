@@ -2,47 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90728a6-ff94-494b-9688-fa5f229f499f" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\LocalWebServer\home\htmlmarkup\cosmoru\js\jqScale.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/btn_search.png" afterPath="$PROJECT_DIR$/img/btn_search.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sprite.png" afterPath="$PROJECT_DIR$/img/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/_layout.php" afterPath="$PROJECT_DIR$/views/_layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brends.html" afterPath="$PROJECT_DIR$/brends.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cart.html" afterPath="$PROJECT_DIR$/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/cart.php" afterPath="$PROJECT_DIR$/views/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.html" afterPath="$PROJECT_DIR$/catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/catalog.php" afterPath="$PROJECT_DIR$/views/catalog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/checkout.php" afterPath="$PROJECT_DIR$/views/checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.scss" afterPath="$PROJECT_DIR$/css/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.php" afterPath="$PROJECT_DIR$/views/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/card.php" afterPath="$PROJECT_DIR$/views/card.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.scss" afterPath="$PROJECT_DIR$/css/content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/form.scss" afterPath="$PROJECT_DIR$/css/form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons.scss" afterPath="$PROJECT_DIR$/css/icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/list.scss" afterPath="$PROJECT_DIR$/css/list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/page-cart.scss" afterPath="$PROJECT_DIR$/css/page-cart.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/page-contact.scss" afterPath="$PROJECT_DIR$/css/page-contact.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pages.scss" afterPath="$PROJECT_DIR$/css/pages.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/section.scss" afterPath="$PROJECT_DIR$/css/section.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/text.html" afterPath="$PROJECT_DIR$/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/text.php" afterPath="$PROJECT_DIR$/views/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/transitions.scss" afterPath="$PROJECT_DIR$/css/transitions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/typography.scss" afterPath="$PROJECT_DIR$/css/typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cosmoru.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389176397632" ignored="false" />
-    <file path="/_layout.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389206517913" ignored="false" />
-    <file path="/style.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389206647308" ignored="false" />
+    <file path="/_layout.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389270873975" ignored="false" />
+    <file path="/style.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389267711478" ignored="false" />
     <file path="/icons.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389199416824" ignored="false" />
-    <file path="/typography.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389207093928" ignored="false" />
+    <file path="/typography.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389269155839" ignored="false" />
     <file path="/common.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389206560533" ignored="false" />
     <file path="/form.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389195897477" ignored="false" />
     <file path="/section.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389198607078" ignored="false" />
@@ -54,14 +33,14 @@
     <file path="/skulls.html" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388414472151" ignored="false" />
     <file path="D:/WebServer/home/htmlmarkup/skullrings/assets/css/main.css" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388417150078" ignored="false" />
     <file path="/main.css" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388417137013" ignored="false" />
-    <file path="/index.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389187292067" ignored="false" />
-    <file path="/script.js" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389203884051" ignored="false" />
-    <file path="/pages.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389205958729" ignored="false" />
-    <file path="/list.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389157298888" ignored="false" />
+    <file path="/index.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389266277371" ignored="false" />
+    <file path="/script.js" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389267450284" ignored="false" />
+    <file path="/pages.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389271246904" ignored="false" />
+    <file path="/list.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389273345106" ignored="false" />
     <file path="/ie.css" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388631571084" ignored="false" />
     <file path="/slider.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388867832200" ignored="false" />
     <file path="/catalog.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389200784702" ignored="false" />
-    <file path="/content.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389178151717" ignored="false" />
+    <file path="/content.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389265358310" ignored="false" />
     <file path="/page-catalog.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388874091029" ignored="false" />
     <file path="/a.less" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388874172546" ignored="false" />
     <file path="/brends.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1388879959482" ignored="false" />
@@ -73,7 +52,8 @@
     <file path="/checkout.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389206665429" ignored="false" />
     <file path="/_customs.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389176579092" ignored="false" />
     <file path="/a.dummy" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389178116387" ignored="false" />
-    <file path="/card.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389207171414" ignored="false" />
+    <file path="/card.php" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389272653834" ignored="false" />
+    <file path="/page-card.scss" changelist="d90728a6-ff94-494b-9688-fa5f229f499f" time="1389273452326" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +76,38 @@
       <file leaf-file-name="_layout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/_layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="34" selection-start="9599" selection-end="9599" vertical-scroll-proportion="-22.961538">
+            <state line="80" column="64" selection-start="4457" selection-end="4471" vertical-scroll-proportion="-7.269231">
               <folding>
-                <element signature="tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#4;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="card.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/card.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="0" selection-start="6927" selection-end="6927" vertical-scroll-proportion="0.745">
-              <folding />
+            <state line="96" column="66" selection-start="5852" selection-end="5852" vertical-scroll-proportion="-17.692308">
+              <folding>
+                <element signature="tag#section#1;tag#div#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/list.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="291" column="21" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#145#389#0" expanded="false" />
+                <element signature="e#404#600#0" expanded="false" />
+                <element signature="e#621#845#0" expanded="false" />
+                <element signature="e#891#2782#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,16 +115,16 @@
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="495" column="37" selection-start="10905" selection-end="10905" vertical-scroll-proportion="0.0">
+            <state line="15" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typography.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="typography.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="46" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0">
+            <state line="10" column="107" selection-start="349" selection-end="349" vertical-scroll-proportion="0.20581114">
               <folding />
             </state>
           </provider>
@@ -134,37 +133,21 @@
       <file leaf-file-name="pages.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="0" selection-start="10358" selection-end="10358" vertical-scroll-proportion="0.0">
+            <state line="433" column="92" selection-start="13673" selection-end="13673" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#4027#4774#0" expanded="false" />
-                <element signature="e#5476#5718#0" expanded="false" />
+                <element signature="e#681#4065#0" expanded="false" />
+                <element signature="e#4665#5412#0" expanded="false" />
+                <element signature="e#5424#6101#0" expanded="false" />
+                <element signature="e#6114#6356#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/section.scss">
+      <file leaf-file-name="page-card.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/page-card.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="384" column="0" selection-start="14004" selection-end="14004" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="20" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
+            <state line="16" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/form.scss" />
-        <option value="$PROJECT_DIR$/css/section.scss" />
-        <option value="$PROJECT_DIR$/css/icons.scss" />
-        <option value="$PROJECT_DIR$/css/page-cart.scss" />
         <option value="$PROJECT_DIR$/views/catalog.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/pages.scss" />
-        <option value="$PROJECT_DIR$/views/_layout.php" />
         <option value="$PROJECT_DIR$/css/common.scss" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/views/checkout.php" />
         <option value="$PROJECT_DIR$/views/cart.php" />
         <option value="$PROJECT_DIR$/views/contact.php" />
         <option value="$PROJECT_DIR$/views/text.php" />
-        <option value="$PROJECT_DIR$/css/typography.scss" />
+        <option value="$PROJECT_DIR$/css/content.scss" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/views/_layout.php" />
+        <option value="$PROJECT_DIR$/css/pages.scss" />
+        <option value="$PROJECT_DIR$/css/list.scss" />
         <option value="$PROJECT_DIR$/views/card.php" />
+        <option value="$PROJECT_DIR$/css/page-card.scss" />
+        <option value="$PROJECT_DIR$/css/typography.scss" />
       </list>
     </option>
   </component>
@@ -420,7 +403,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -503,97 +486,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/page-cart.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="10" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2023#2886#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="20" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="627" selection-end="627" vertical-scroll-proportion="0.46459627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="0" selection-start="10358" selection-end="10358" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4027#4774#0" expanded="false" />
-            <element signature="e#5476#5718#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="32" selection-start="4819" selection-end="4819" vertical-scroll-proportion="0.82083863">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/brends.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="32" selection-start="4831" selection-end="4831" vertical-scroll-proportion="0.6912325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="32" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.75603557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="34" selection-start="9599" selection-end="9599" vertical-scroll-proportion="-22.961538">
-          <folding>
-            <element signature="tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/catalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="781" selection-end="781" vertical-scroll-proportion="0.44386423">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="43" selection-start="4597" selection-end="4597" vertical-scroll-proportion="0.60443866">
@@ -601,23 +493,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="28" selection-start="5519" selection-end="17682" vertical-scroll-proportion="-13.038462">
+          <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#section#0;tag#article#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="0" selection-start="14004" selection-end="14004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="164" selection-end="164" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="20" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="30" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="27" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="64" selection-start="4457" selection-end="4471" vertical-scroll-proportion="-7.269231">
+          <folding>
+            <element signature="tag#div#1;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#ul#0;tag#li#0;tag#ul#0;tag#nav#0;tag#section#0;tag#div#1;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="24" selection-start="9270" selection-end="9470" vertical-scroll-proportion="0.886423">
+          <folding>
+            <element signature="tag#div#0;tag#div#1" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1" expanded="false" />
+            <element signature="tag#div#0;tag#section#0;tag#div#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="433" column="92" selection-start="13673" selection-end="13673" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#681#4065#0" expanded="false" />
+            <element signature="e#4665#5412#0" expanded="false" />
+            <element signature="e#5424#6101#0" expanded="false" />
+            <element signature="e#6114#6356#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="66" selection-start="5852" selection-end="5852" vertical-scroll-proportion="-17.692308">
+          <folding>
+            <element signature="tag#section#1;tag#div#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="21" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#145#389#0" expanded="false" />
+            <element signature="e#404#600#0" expanded="false" />
+            <element signature="e#621#845#0" expanded="false" />
+            <element signature="e#891#2782#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="495" column="37" selection-start="10905" selection-end="10905" vertical-scroll-proportion="0.0">
+        <state line="15" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="46" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="6927" selection-end="6927" vertical-scroll-proportion="0.745">
+        <state line="10" column="107" selection-start="349" selection-end="349" vertical-scroll-proportion="0.20581114">
           <folding />
         </state>
       </provider>

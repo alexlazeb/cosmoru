@@ -1,7 +1,7 @@
 {% extends 'views/_layout.php' %}
 {% block slider %}
 <section class="section section-slider content-width visible">
-    <div id="main-slider" class="flexslider">
+    <div id="main-slider" class="flexslider-main">
         <ul class="slides">
             <li>
                 <figure>

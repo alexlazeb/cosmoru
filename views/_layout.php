@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen, projection" />
     <link href="http://fnt.webink.com/wfs/webink.css/?project=85797F87-DC42-4117-8FB5-653DD6EF7A26&fonts=73E6C83D-7F13-A8AE-4770-C315AE5061C3:f=MyriadPro-Regular,1421BCAA-4D56-EF9D-A008-8F0EFD21830C:f=MyriadPro-Bold,73FEA18A-033F-AE20-4C65-461CA87E3CF3:f=MyriadPro-It,F7BFE656-C078-45C2-FE87-230C4CB9A997:f=MyriadPro-SemiboldIt,050FBD0F-5D55-410F-DC57-586D49D25BCB:f=MyriadPro-Semibold,929B8C2C-C67C-8345-92BA-BFA9AFEEDF57:f=MyriadPro-BoldIt" rel="stylesheet" type="text/css"/>
     <!--<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen, projection" />-->
     <!--[if lt IE 8]>
@@ -71,8 +72,88 @@
     <div class="header-bottom">
         <section class="inner visible">
             <nav role="main" class="nav-primary clear-fix">
-                <ul class="line-list-left left">
-                    <li><a href="catalog.html">Косметика</a></li>
+                <ul class="drop-down-menu line-list-left left">
+                    <li class="sub">
+                        <a href="catalog.html">Косметика</a>
+                        <ul class="clear-fix sub-menu-style">
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a class="sub_menu_title" href="#">Для волос</a></li>
+                                    <li><a href="#">Ампулы</a></li>
+                                    <li><a href="#">Бальзамы</a></li>
+                                    <li><a href="#">Кондиционеры</a></li>
+                                    <li><a href="#">Краска</a></li>
+                                    <li><a href="#">Лаки</a></li>
+                                    <li><a href="#">Маски</a></li>
+                                    <li><a href="#">Масла</a></li>
+                                    <li><a href="#">Спреи</a></li>
+                                    <li><a href="#">Сыворотки</a></li>
+                                    <li><a href="#">Шампуни</a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a class="sub_menu_title" href="#">Для волос</a></li>
+                                    <li><a href="#">Ампулы</a></li>
+                                    <li><a href="#">Бальзамы</a></li>
+                                    <li><a href="#">Кондиционеры</a></li>
+                                    <li><a href="#">Краска</a></li>
+                                    <li><a href="#">Лаки</a></li>
+                                    <li><a href="#">Маски</a></li>
+                                    <li><a href="#">Масла</a></li>
+                                    <li><a href="#">Спреи</a></li>
+                                    <li><a href="#">Сыворотки</a></li>
+                                    <li><a href="#">Шампуни</a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a class="sub_menu_title" href="#">Для волос</a></li>
+                                    <li><a href="#">Ампулы</a></li>
+                                    <li><a href="#">Бальзамы</a></li>
+                                    <li><a href="#">Кондиционеры</a></li>
+                                    <li><a href="#">Краска</a></li>
+                                    <li><a href="#">Лаки</a></li>
+                                    <li><a href="#">Маски</a></li>
+                                    <li><a href="#">Масла</a></li>
+                                    <li><a href="#">Спреи</a></li>
+                                    <li><a href="#">Сыворотки</a></li>
+                                    <li><a href="#">Шампуни</a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a class="sub_menu_title" href="#">Для волос</a></li>
+                                    <li><a href="#">Ампулы</a></li>
+                                    <li><a href="#">Бальзамы</a></li>
+                                    <li><a href="#">Кондиционеры</a></li>
+                                    <li><a href="#">Краска</a></li>
+                                    <li><a href="#">Лаки</a></li>
+                                    <li><a href="#">Маски</a></li>
+                                    <li><a href="#">Масла</a></li>
+                                    <li><a href="#">Спреи</a></li>
+                                    <li><a href="#">Сыворотки</a></li>
+                                    <li><a href="#">Шампуни</a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a class="sub_menu_title" href="#">Для волос</a></li>
+                                    <li><a href="#">Ампулы</a></li>
+                                    <li><a href="#">Бальзамы</a></li>
+                                    <li><a href="#">Кондиционеры</a></li>
+                                    <li><a href="#">Краска</a></li>
+                                    <li><a href="#">Лаки</a></li>
+                                    <li><a href="#">Маски</a></li>
+                                    <li><a href="#">Масла</a></li>
+                                    <li><a href="#">Спреи</a></li>
+                                    <li><a href="#">Сыворотки</a></li>
+                                    <li><a href="#">Шампуни</a></li>
+                                </ul>
+                            </div>
+
+                        </ul>
+                    </li>
                     <li><a href="#">Парфюмерия</a></li>
                     <li><a href="#">Макияж</a></li>
                     <li><a href="#">Профессионалам</a></li>
@@ -88,77 +169,126 @@
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                             <div class="item-list left">
                                 <ul>
                                     <li><a href="#">Abahna</a></li>
                                     <li><a href="#">Aba</a></li>
-                                    <li><a href="#">Все бренды на A</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
+                                </ul>
+                            </div>
+                            <div class="item-list left">
+                                <ul>
+                                    <li><a href="#">Abahna</a></li>
+                                    <li><a href="#">Aba</a></li>
+                                    <li><a href="#"><strong>Все бренды на A</strong></a></li>
                                 </ul>
                             </div>
                         </ul>

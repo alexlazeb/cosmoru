@@ -36,6 +36,26 @@ function initialise(content) {
         pauseOnHover: true,
         touch: true
     });
+    // The slider being synced must be initialized first
+    $('#carousel-item').flexslider({
+        animation: "slide",
+        mousewheel: true,
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 30,
+        itemMargin: 5,
+        asNavFor: '#slider-item'
+    });
+    $('#slider-item').flexslider({
+        itemWidth: 246,
+        animation: "slide",
+        mousewheel: true,
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel-item"
+    });
     $('#checkout-container').easytabs();
     //Вход
     $(".show_link").click(function(){
@@ -63,22 +83,15 @@ function initialise(content) {
 //        });
 //    });
 
-    $('.drop-down-menu li.sub').hover(
-        function() {
-            $('ul', this).slideDown(222);
-        },
-        function() {
-            $('ul', this).slideUp(222);
-        }
-    );
-//    $('.drop-down-menu li.sub').hover(function () {
-//        clearTimeout($.data(this,'timer'));
-//        $('ul',this).stop(true,true).slideDown(200);
-//    }, function () {
-//        $.data(this,'timer', setTimeout($.proxy(function() {
-//            $('ul',this).stop(true,true).slideUp(200);
-//        }, this), 400));
-//    });
+
+    $('.drop-down-menu li.sub').hover(function () {
+        clearTimeout($.data(this,'timer'));
+        $('ul',this).stop(true,true).fadeIn(222);
+    }, function () {
+        $.data(this,'timer', setTimeout($.proxy(function() {
+            $('ul',this).stop(true,true).fadeOut(333);
+        }, this), 100));
+    });
     $(".table-cart-items").delegate("tr","mouseover",function(){
         $(this).children("td:last-child").children("a").removeClass("hide");
     });

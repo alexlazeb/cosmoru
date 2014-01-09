@@ -8,14 +8,14 @@ body{
 }
 input[type=submit]{cursor: pointer;}
 a:hover{color: #ee2e24;text-decoration: underline;}
-H1,H2,h3,h4,h5,h6{color: #27313d;font-family: 'MyriadPro-Semibold';line-height: normal;}
+H1,H2,h3,h4,h5,h6{color: #27313d;font-family: 'MyriadPro-Semibold';line-height: normal;font-weight: normal;}
 h1{
   &.heading{font-size: 29px;}
   font-size: 29px;
 }
 h2{font-size: 19px;margin-bottom: 12px;}
 //h1,h2{font-size: 36px;}
-strong{font-family: 'MyriadPro-Bold';}
+strong{font-family: 'MyriadPro-Bold';font-weight: normal;}
 i{font-family: 'pt_sansitalic';}
 p{line-height: 18px;}
 
@@ -23,7 +23,7 @@ p{line-height: 18px;}
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   line-height: normal;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #000;
 }
 nav{
@@ -45,10 +45,10 @@ nav{
 .action-text{font-size: 15px;font-family: 'MyriadPro-Bold';
   //letter-spacing: -0.1px
 }
-.product-name{color: #00455e;font-size: 1.5em;}
+.product-name{color: #00455e;font-size: 15px;}
 .product-price{
   &.old{text-decoration: line-through;}
-  color: #ee2e24;font-size: 1.5em;
+  color: #ee2e24;font-size: 15px;
 }
 .heading-title{color: #00455e;}
 .section-title{color: #00455e;font-size: 1.6em;margin-bottom: 15px;}

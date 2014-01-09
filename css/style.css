@@ -191,7 +191,8 @@ a:hover {
 H1, H2, h3, h4, h5, h6 {
   color: #27313d;
   font-family: 'MyriadPro-Semibold';
-  line-height: normal; }
+  line-height: normal;
+  font-weight: normal; }
 
 h1 {
   font-size: 29px; }
@@ -203,7 +204,8 @@ h2 {
   margin-bottom: 12px; }
 
 strong {
-  font-family: 'MyriadPro-Bold'; }
+  font-family: 'MyriadPro-Bold';
+  font-weight: normal; }
 
 i {
   font-family: 'pt_sansitalic'; }
@@ -215,7 +217,7 @@ p {
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   line-height: normal;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #000; }
 
 nav {
@@ -254,11 +256,11 @@ nav {
 
 .product-name {
   color: #00455e;
-  font-size: 1.5em; }
+  font-size: 15px; }
 
 .product-price {
   color: #ee2e24;
-  font-size: 1.5em; }
+  font-size: 15px; }
   .product-price.old {
     text-decoration: line-through; }
 
@@ -1120,7 +1122,7 @@ ul.dotted-round-list {
       text-decoration: none; }
       .section-product-list > li.selected .colored_item_link:hover span {
         border: medium none; }
-    .section-product-list > li.selected .colored_item_link .icon, .section-product-list > li.selected .colored_item_link .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav .section-product-list > li.selected .colored_item_link a.flex-prev, .section-product-list > li.selected .colored_item_link .flexslider .flex-direction-nav a.flex-next, .flexslider .flex-direction-nav .section-product-list > li.selected .colored_item_link a.flex-next, .section-product-list > li.selected .colored_item_link .label-price.stick:before, .section-product-list > li.selected .colored_item_link .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .section-product-list > li.selected .colored_item_link .stick.label-price:before {
+    .section-product-list > li.selected .colored_item_link .icon, .section-product-list > li.selected .colored_item_link .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav .section-product-list > li.selected .colored_item_link a.flex-prev, .section-product-list > li.selected .colored_item_link .flexslider-main .flex-direction-nav a.flex-next, .flexslider-main .flex-direction-nav .section-product-list > li.selected .colored_item_link a.flex-next, .section-product-list > li.selected .colored_item_link .label-price.stick:before, .section-product-list > li.selected .colored_item_link .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .section-product-list > li.selected .colored_item_link .stick.label-price:before {
       border: medium none; }
     .section-product-list > li.selected .colored_item_link span {
       color: #00a3df;
@@ -1307,7 +1309,7 @@ ul.dotted-round-list {
       text-decoration: none; }
       .section-product-list > li.colored .colored_item_link:hover span {
         border: medium none; }
-    .section-product-list > li.colored .colored_item_link .icon, .section-product-list > li.colored .colored_item_link .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav .section-product-list > li.colored .colored_item_link a.flex-prev, .section-product-list > li.colored .colored_item_link .flexslider .flex-direction-nav a.flex-next, .flexslider .flex-direction-nav .section-product-list > li.colored .colored_item_link a.flex-next, .section-product-list > li.colored .colored_item_link .label-price.stick:before, .section-product-list > li.colored .colored_item_link .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .section-product-list > li.colored .colored_item_link .stick.label-price:before {
+    .section-product-list > li.colored .colored_item_link .icon, .section-product-list > li.colored .colored_item_link .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav .section-product-list > li.colored .colored_item_link a.flex-prev, .section-product-list > li.colored .colored_item_link .flexslider-main .flex-direction-nav a.flex-next, .flexslider-main .flex-direction-nav .section-product-list > li.colored .colored_item_link a.flex-next, .section-product-list > li.colored .colored_item_link .label-price.stick:before, .section-product-list > li.colored .colored_item_link .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .section-product-list > li.colored .colored_item_link .stick.label-price:before {
       border: medium none; }
     .section-product-list > li.colored .colored_item_link span {
       color: #00a3df;
@@ -1347,6 +1349,30 @@ ul.dotted-round-list {
 .section-product-list .product-price {
   display: block; }
 
+/*page card*/
+.card-product-list li {
+  margin: 0px 10px 10px 0px; }
+  .card-product-list li .choose_btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    line-height: 0; }
+    .card-product-list li .choose_btn.active:after {
+      content: '';
+      display: block;
+      width: 44px;
+      height: 44px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -22px;
+      margin-top: -22px;
+      z-index: 5;
+      background: url(../img/sprite.png) -429px -46px no-repeat; }
+
+/*end page card*/
 .brend-letter-list {
   overflow: hidden;
   margin: 8px 0px 22px 0px; }
@@ -1376,7 +1402,7 @@ ul.dotted-round-list {
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease; }
 
-.iconboxes .flipper__front > .icon, .iconboxes .flexslider .flex-direction-nav .flipper__front > a.flex-prev, .flexslider .flex-direction-nav .iconboxes .flipper__front > a.flex-prev, .iconboxes .flexslider .flex-direction-nav .flipper__front > a.flex-next, .flexslider .flex-direction-nav .iconboxes .flipper__front > a.flex-next, .iconboxes .flipper__front > .label-price.stick:before, .iconboxes .blue-stripe .action-text .flipper__front > .stick.label-price:before, .blue-stripe .action-text .iconboxes .flipper__front > .stick.label-price:before {
+.iconboxes .flipper__front > .icon, .iconboxes .flexslider-main .flex-direction-nav .flipper__front > a.flex-prev, .flexslider-main .flex-direction-nav .iconboxes .flipper__front > a.flex-prev, .iconboxes .flexslider-main .flex-direction-nav .flipper__front > a.flex-next, .flexslider-main .flex-direction-nav .iconboxes .flipper__front > a.flex-next, .iconboxes .flipper__front > .label-price.stick:before, .iconboxes .blue-stripe .action-text .flipper__front > .stick.label-price:before, .blue-stripe .action-text .iconboxes .flipper__front > .stick.label-price:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1499,7 +1525,7 @@ ul.dotted-round-list {
         .table-cart-items.hovered tbody tr td + td + td + td {
           width: 11%;
           padding-right: 0; }
-    .table-cart-items.hovered .icon, .table-cart-items.hovered .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav .table-cart-items.hovered a.flex-prev, .table-cart-items.hovered .flexslider .flex-direction-nav a.flex-next, .flexslider .flex-direction-nav .table-cart-items.hovered a.flex-next, .table-cart-items.hovered .label-price.stick:before, .table-cart-items.hovered .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .table-cart-items.hovered .stick.label-price:before {
+    .table-cart-items.hovered .icon, .table-cart-items.hovered .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav .table-cart-items.hovered a.flex-prev, .table-cart-items.hovered .flexslider-main .flex-direction-nav a.flex-next, .flexslider-main .flex-direction-nav .table-cart-items.hovered a.flex-next, .table-cart-items.hovered .label-price.stick:before, .table-cart-items.hovered .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .table-cart-items.hovered .stick.label-price:before {
       -webkit-transition: all 0.2s linear;
       -moz-transition: all 0.2s linear;
       transition: all 0.2s linear;
@@ -1647,6 +1673,47 @@ form .required {
 @force-import "variables";
 @force-import "keyframes";
 @force-import "transitions";
+.card-item {
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .card-item .card-item-title {
+    color: #00455e; }
+  .card-item .card-item-description .product-price {
+    font-size: 21px;
+    vertical-align: middle;
+    margin-right: 10px; }
+  .card-item .card-item-description .btn {
+    font-size: 21px; }
+  .card-item .card-item-short-description {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .card-item .card-item-short-description .row {
+      margin: 2px 0px; }
+    .card-item .card-item-short-description a:hover {
+      text-decoration: none !important; }
+    .card-item .card-item-short-description span, .card-item .card-item-short-description a {
+      font-size: 13px;
+      color: #333333;
+      text-decoration: underline; }
+    .card-item .card-item-short-description .label {
+      font-size: 13px;
+      text-decoration: none;
+      color: #b2b2b2;
+      display: inline-block;
+      *display: inline;
+      margin-right: 5px; }
+
+.card-tabs {
+  margin-bottom: 16px; }
+  .card-tabs ul li {
+    margin-left: 10px; }
+    .card-tabs ul li:first-child {
+      margin-left: 0px; }
+
+@force-import "common";
+@force-import "variables";
+@force-import "keyframes";
+@force-import "transitions";
 .filter-block {
   overflow: hidden;
   margin-bottom: 20px;
@@ -1728,13 +1795,13 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
 article P {
   font-family: 'MyriadPro-Regular';
   line-height: 1.2;
-  font-size: 1.2em; }
+  font-size: 12px; }
   article P:last-child {
     margin-bottom: 0; }
   article P.big {
-    font-size: 1.5em; }
+    font-size: 15px; }
   article P.biggest {
-    font-size: 1.8em; }
+    font-size: 18px; }
 article h1 {
   font-size: 30px; }
 article h2 {
@@ -1770,8 +1837,17 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
   line-height: 18px; }
 
 .brend_letter {
-  font-size: 2.2em;
+  font-size: 22px;
   color: #00a3df;
+  font-family: 'MyriadPro-Semibold'; }
+
+.card-item-title {
+  font-size: 22px;
+  color: #00455e; }
+
+.panel-container article p {
+  font-size: 15px; }
+.panel-container article strong {
   font-family: 'MyriadPro-Semibold'; }
 
 @force-import 'variables';
@@ -1789,36 +1865,36 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
   padding-bottom: 40px;
   margin-bottom: -16px;
   background: url(../img/shadow_slider.png) center bottom no-repeat; }
-  #main-slider.flexslider .flex-viewport {
+  #main-slider.flexslider-main .flex-viewport {
     border: 3px solid white;
     overflow: hidden;
     line-height: 0;
     height: 300px; }
 
-.flexslider {
+.flexslider-main {
   position: relative; }
-  .flexslider:hover .flex-direction-nav li a {
+  .flexslider-main:hover .flex-direction-nav li a {
     filter: alpha(opactiy=100);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -moz-opacity: 1;
     -khtml-opacity: 1;
     opacity: 1; }
-  .flexslider .flex-direction-nav {
+  .flexslider-main .flex-direction-nav {
     position: absolute;
     top: 48%;
     margin-top: -63px;
     width: 100%; }
-    .flexslider .flex-direction-nav li {
+    .flexslider-main .flex-direction-nav li {
       float: right;
       position: relative;
       right: -45px;
       z-index: 20;
       zoom: 1; }
-      .flexslider .flex-direction-nav li:first-child {
+      .flexslider-main .flex-direction-nav li:first-child {
         float: left;
         right: inherit;
         left: -45px; }
-    .flexslider .flex-direction-nav a {
+    .flexslider-main .flex-direction-nav a {
       filter: alpha(opactiy=60);
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
       -moz-opacity: 0.6;
@@ -1827,10 +1903,15 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
       -webkit-transition: all 0.15s linear;
       -moz-transition: all 0.15s linear;
       transition: all 0.15s linear;
+      margin: 0;
       display: block;
       text-indent: -9999px;
       background: url(../img/sprite.png) no-repeat; }
-      .flexslider .flex-direction-nav a:hover {
+      .flexslider-main .flex-direction-nav a.flex-prev {
+        left: 0; }
+      .flexslider-main .flex-direction-nav a.flex-next {
+        right: 0; }
+      .flexslider-main .flex-direction-nav a:hover {
         filter: alpha(opactiy=100);
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         -moz-opacity: 1;
@@ -1839,9 +1920,9 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
         -webkit-transition: all 0.15s linear;
         -moz-transition: all 0.15s linear;
         transition: all 0.15s linear; }
-  .flexslider figure {
+  .flexslider-main figure {
     position: relative; }
-    .flexslider figure figcaption {
+    .flexslider-main figure figcaption {
       width: 100%;
       position: absolute;
       left: 0;
@@ -1850,14 +1931,14 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
       z-index: 10;
       zoom: 1;
       color: #fff; }
-      .flexslider figure figcaption .wrap {
+      .flexslider-main figure figcaption .wrap {
         width: 80%;
         margin: 0 auto;
         padding: 0 10%;
         display: table-cell;
         height: 290px;
         vertical-align: middle; }
-      .flexslider figure figcaption .flex-title {
+      .flexslider-main figure figcaption .flex-title {
         display: inline-block;
         font-size: 4.8em;
         line-height: 1.6;
@@ -1880,7 +1961,7 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00a2ff', endColorstr='#00c5f7',GradientType=0 );
         /* IE6-9 */
         text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); }
-      .flexslider figure figcaption .flex-description {
+      .flexslider-main figure figcaption .flex-description {
         max-width: 60%;
         text-transform: uppercase;
         display: inline-block;
@@ -1905,6 +1986,35 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
         /* W3C */
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5f7', endColorstr='#00d8f2',GradientType=0 );
         /* IE6-9 */ }
+
+.flexslider.item-slider {
+  margin-bottom: 0px;
+  border: medium none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+  .flexslider.item-slider .flex-direction-nav .flex-disabled {
+    opacity: 0!important;
+    filter: alpha(opacity=0); }
+
+#carousel-item .slides li {
+  filter: alpha(opactiy=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+  margin: 0px 2px;
+  height: 100%;
+  cursor: pointer; }
+  #carousel-item .slides li.flex-active-slide {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; }
 
 /* END */
 .blue-stripe {
@@ -2205,42 +2315,17 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
     font-size: 14px !important;
     font-family: 'MyriadPro-Semibold'; }
 
-.drop-down-menu li.sub a {
-  display: block; }
-.drop-down-menu li.sub > ul {
-  display: block;
-  width: 900px;
-  max-width: 95%;
-  -webkit-box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
-  -moz-box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
-  box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
-  padding: 20px;
-  background: aqua;
-  list-style: none;
-  margin: 18px 0 0 -1px;
-  /* Чтобы в IE8 не косило. */
-  position: absolute;
-  display: none;
-  left: 0;
-  color: #fff;
-  background: #10beff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #10beff 0%, #00a3df 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #10beff), color-stop(100%, #00a3df));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #10beff 0%, #00a3df 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #10beff 0%, #00a3df 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #10beff 0%, #00a3df 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #10beff 0%, #00a3df 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#10beff', endColorstr='#00a3df',GradientType=0 );
-  /* IE6-9 */ }
-  .drop-down-menu li.sub > ul:before {
-    top: -6px;
+.drop-down-menu {
+  position: relative; }
+  .drop-down-menu.right .sub > ul {
+    right: 0; }
+  .drop-down-menu.left .sub > ul {
+    left: 0;
+    right: inherit; }
+  .drop-down-menu li ul a {
+    color: #fff; }
+  .drop-down-menu li.sub:hover > a:before {
+    bottom: -19px;
     left: 50%;
     margin-left: -6px;
     content: '';
@@ -2251,22 +2336,76 @@ article .article-news-list li p, article .article-news-list li .short-descriptio
     border-style: solid;
     border-width: 0 6px 6px 6px;
     border-color: transparent transparent #0fbfff transparent; }
-  .drop-down-menu li.sub > ul > li {
-    width: 200px;
+  .drop-down-menu li.sub a {
+    display: block;
+    position: relative; }
+  .drop-down-menu li.sub > ul {
+    z-index: 100;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
+    -moz-box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
+    box-shadow: 0 10px 25px rgba(0, 34, 46, 0.3);
+    width: 900px;
+    padding: 10px;
+    background: aqua;
     list-style: none;
-    padding: 0;
-    margin: 0;
-    background: none; }
-    .drop-down-menu li.sub > ul > li a {
-      color: #fff;
-      display: block; }
-  .drop-down-menu li.sub > ul .item-list {
-    margin: 10px;
-    float: left; }
-.drop-down-menu li {
-  position: relative;
-  display: block;
-  z-index: 999; }
+    margin: 18px 0 0 -1px;
+    /* Чтобы в IE8 не косило. */
+    position: absolute;
+    display: none;
+    right: 0;
+    color: #fff;
+    background: #10beff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #10beff 0%, #00a3df 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #10beff), color-stop(100%, #00a3df));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #10beff 0%, #00a3df 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #10beff 0%, #00a3df 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #10beff 0%, #00a3df 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #10beff 0%, #00a3df 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#10beff', endColorstr='#00a3df',GradientType=0 );
+    /* IE6-9 */ }
+    .drop-down-menu li.sub > ul > li {
+      width: 200px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: none; }
+      .drop-down-menu li.sub > ul > li a {
+        color: #fff;
+        display: block; }
+    .drop-down-menu li.sub > ul .item-list {
+      margin: 15px 18px;
+      float: left; }
+    .drop-down-menu li.sub > ul.sub-menu-style {
+      width: 980px; }
+      .drop-down-menu li.sub > ul.sub-menu-style .item-list {
+        margin: 15px 80px 15px 15px; }
+        .drop-down-menu li.sub > ul.sub-menu-style .item-list li {
+          line-height: 20px; }
+  .drop-down-menu li {
+    display: block; }
+  .drop-down-menu ul .item-list li {
+    padding-left: 0 !important;
+    margin-left: 0;
+    line-height: 18px; }
+    .drop-down-menu ul .item-list li a {
+      font-size: 14px; }
+      .drop-down-menu ul .item-list li a strong {
+        font-family: 'MyriadPro-Bold'; }
+  .drop-down-menu ul .item-list .sub_menu_title {
+    font-size: 18px;
+    font-family: 'MyriadPro-Semibold';
+    margin-bottom: 4px; }
+  .drop-down-menu .sub_menu_title {
+    font-size: 18px;
+    font-family: 'MyriadPro-Semibold';
+    margin-bottom: 4px; }
 
 /*
 ------------------- T A B S ----------------------
@@ -2711,128 +2850,128 @@ form .uneditable-input:focus {
     cursor: pointer; }
 
 /*====== ICONS ======*/
-.icon, .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav a.flex-next, .label-price.stick:before, .blue-stripe .action-text .stick.label-price:before {
+.icon, .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav a.flex-next, .label-price.stick:before, .blue-stripe .action-text .stick.label-price:before {
   background: url(../img/sprite.png) 0 0 no-repeat;
   display: inline-block;
   vertical-align: middle; }
-  .icon.pull-left, .flexslider .flex-direction-nav a.pull-left.flex-prev, .flexslider .flex-direction-nav a.pull-left.flex-next, .pull-left.label-price.stick:before, .blue-stripe .action-text .pull-left.stick.label-price:before {
+  .icon.pull-left, .flexslider-main .flex-direction-nav a.pull-left.flex-prev, .flexslider-main .flex-direction-nav a.pull-left.flex-next, .pull-left.label-price.stick:before, .blue-stripe .action-text .pull-left.stick.label-price:before {
     margin-right: 5px; }
-  .icon.pull-right, .flexslider .flex-direction-nav a.pull-right.flex-prev, .flexslider .flex-direction-nav a.pull-right.flex-next, .pull-right.label-price.stick:before, .blue-stripe .action-text .pull-right.stick.label-price:before {
+  .icon.pull-right, .flexslider-main .flex-direction-nav a.pull-right.flex-prev, .flexslider-main .flex-direction-nav a.pull-right.flex-next, .pull-right.label-price.stick:before, .blue-stripe .action-text .pull-right.stick.label-price:before {
     margin-left: 5px; }
-  .icon.i-ok, .flexslider .flex-direction-nav a.i-ok.flex-prev, .flexslider .flex-direction-nav a.i-ok.flex-next, .i-ok.label-price.stick:before, .blue-stripe .action-text .i-ok.stick.label-price:before {
+  .icon.i-ok, .flexslider-main .flex-direction-nav a.i-ok.flex-prev, .flexslider-main .flex-direction-nav a.i-ok.flex-next, .i-ok.label-price.stick:before, .blue-stripe .action-text .i-ok.stick.label-price:before {
     background-image: url(../img/list_ok.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 20px; }
-  .icon.i-close, .flexslider .flex-direction-nav a.i-close.flex-prev, .flexslider .flex-direction-nav a.i-close.flex-next, .i-close.label-price.stick:before, .blue-stripe .action-text .i-close.stick.label-price:before {
+  .icon.i-close, .flexslider-main .flex-direction-nav a.i-close.flex-prev, .flexslider-main .flex-direction-nav a.i-close.flex-next, .i-close.label-price.stick:before, .blue-stripe .action-text .i-close.stick.label-price:before {
     background-position: -560px 0px;
     width: 7px;
     height: 7px; }
-  .icon.i-slider-arrow-left, .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav a.i-slider-arrow-left.flex-next, .flexslider .flex-direction-nav a.flex-next.flex-prev, .i-slider-arrow-left.label-price.stick:before, .flexslider .flex-direction-nav a.label-price.stick.flex-prev:before, .flexslider .flex-direction-nav .blue-stripe .action-text a.stick.flex-prev.label-price:before, .blue-stripe .action-text .flexslider .flex-direction-nav a.stick.flex-prev.label-price:before, .blue-stripe .action-text .i-slider-arrow-left.stick.label-price:before {
+  .icon.i-slider-arrow-left, .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav a.i-slider-arrow-left.flex-next, .flexslider-main .flex-direction-nav a.flex-next.flex-prev, .i-slider-arrow-left.label-price.stick:before, .flexslider-main .flex-direction-nav a.label-price.stick.flex-prev:before, .flexslider-main .flex-direction-nav .blue-stripe .action-text a.stick.flex-prev.label-price:before, .blue-stripe .action-text .flexslider-main .flex-direction-nav a.stick.flex-prev.label-price:before, .blue-stripe .action-text .i-slider-arrow-left.stick.label-price:before {
     background-position: -5px 0px;
     width: 27px;
     height: 89px; }
-  .icon.i-slider-arrow-right, .flexslider .flex-direction-nav a.i-slider-arrow-right.flex-prev, .flexslider .flex-direction-nav a.flex-prev.flex-next, .flexslider .flex-direction-nav a.flex-next, .i-slider-arrow-right.label-price.stick:before, .flexslider .flex-direction-nav a.label-price.stick.flex-next:before, .flexslider .flex-direction-nav .blue-stripe .action-text a.stick.flex-next.label-price:before, .blue-stripe .action-text .flexslider .flex-direction-nav a.stick.flex-next.label-price:before, .blue-stripe .action-text .i-slider-arrow-right.stick.label-price:before {
+  .icon.i-slider-arrow-right, .flexslider-main .flex-direction-nav a.i-slider-arrow-right.flex-prev, .flexslider-main .flex-direction-nav a.flex-prev.flex-next, .flexslider-main .flex-direction-nav a.flex-next, .i-slider-arrow-right.label-price.stick:before, .flexslider-main .flex-direction-nav a.label-price.stick.flex-next:before, .flexslider-main .flex-direction-nav .blue-stripe .action-text a.stick.flex-next.label-price:before, .blue-stripe .action-text .flexslider-main .flex-direction-nav a.stick.flex-next.label-price:before, .blue-stripe .action-text .i-slider-arrow-right.stick.label-price:before {
     background-position: -37px 0px;
     width: 27px;
     height: 89px; }
-  .icon.i-stick, .flexslider .flex-direction-nav a.i-stick.flex-prev, .flexslider .flex-direction-nav a.flex-prev.label-price.stick:before, .flexslider .flex-direction-nav .blue-stripe .action-text a.flex-prev.stick.label-price:before, .blue-stripe .action-text .flexslider .flex-direction-nav a.flex-prev.stick.label-price:before, .flexslider .flex-direction-nav a.i-stick.flex-next, .flexslider .flex-direction-nav a.flex-next.label-price.stick:before, .flexslider .flex-direction-nav .blue-stripe .action-text a.flex-next.stick.label-price:before, .blue-stripe .action-text .flexslider .flex-direction-nav a.flex-next.stick.label-price:before, .label-price.stick:before, .blue-stripe .action-text .stick.label-price:before {
+  .icon.i-stick, .flexslider-main .flex-direction-nav a.i-stick.flex-prev, .flexslider-main .flex-direction-nav a.flex-prev.label-price.stick:before, .flexslider-main .flex-direction-nav .blue-stripe .action-text a.flex-prev.stick.label-price:before, .blue-stripe .action-text .flexslider-main .flex-direction-nav a.flex-prev.stick.label-price:before, .flexslider-main .flex-direction-nav a.i-stick.flex-next, .flexslider-main .flex-direction-nav a.flex-next.label-price.stick:before, .flexslider-main .flex-direction-nav .blue-stripe .action-text a.flex-next.stick.label-price:before, .blue-stripe .action-text .flexslider-main .flex-direction-nav a.flex-next.stick.label-price:before, .label-price.stick:before, .blue-stripe .action-text .stick.label-price:before {
     background-position: -69px 0px;
     width: 27px;
     height: 43px; }
-  .icon.i-main-search, .flexslider .flex-direction-nav a.i-main-search.flex-prev, .flexslider .flex-direction-nav a.i-main-search.flex-next, .i-main-search.label-price.stick:before, .blue-stripe .action-text .i-main-search.stick.label-price:before {
+  .icon.i-main-search, .flexslider-main .flex-direction-nav a.i-main-search.flex-prev, .flexslider-main .flex-direction-nav a.i-main-search.flex-next, .i-main-search.label-price.stick:before, .blue-stripe .action-text .i-main-search.stick.label-price:before {
     background-position: -5px -94px;
     width: 557px;
     height: 42px; }
-  .icon.i-arrow-left-btn-red, .flexslider .flex-direction-nav a.i-arrow-left-btn-red.flex-prev, .flexslider .flex-direction-nav a.i-arrow-left-btn-red.flex-next, .i-arrow-left-btn-red.label-price.stick:before, .blue-stripe .action-text .i-arrow-left-btn-red.stick.label-price:before {
+  .icon.i-arrow-left-btn-red, .flexslider-main .flex-direction-nav a.i-arrow-left-btn-red.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow-left-btn-red.flex-next, .i-arrow-left-btn-red.label-price.stick:before, .blue-stripe .action-text .i-arrow-left-btn-red.stick.label-price:before {
     background-position: -101px 0px;
     width: 10px;
     height: 30px; }
-  .icon.i-checkbox, .flexslider .flex-direction-nav a.i-checkbox.flex-prev, .flexslider .flex-direction-nav a.i-checkbox.flex-next, .i-checkbox.label-price.stick:before, .blue-stripe .action-text .i-checkbox.stick.label-price:before {
+  .icon.i-checkbox, .flexslider-main .flex-direction-nav a.i-checkbox.flex-prev, .flexslider-main .flex-direction-nav a.i-checkbox.flex-next, .i-checkbox.label-price.stick:before, .blue-stripe .action-text .i-checkbox.stick.label-price:before {
     background-position: -116px 0px;
     width: 16px;
     height: 30px; }
-  .icon.i-border-2-color, .flexslider .flex-direction-nav a.i-border-2-color.flex-prev, .flexslider .flex-direction-nav a.i-border-2-color.flex-next, .i-border-2-color.label-price.stick:before, .blue-stripe .action-text .i-border-2-color.stick.label-price:before {
+  .icon.i-border-2-color, .flexslider-main .flex-direction-nav a.i-border-2-color.flex-prev, .flexslider-main .flex-direction-nav a.i-border-2-color.flex-next, .i-border-2-color.label-price.stick:before, .blue-stripe .action-text .i-border-2-color.stick.label-price:before {
     background-position: -137px 0px;
     width: 32px;
     height: 28px; }
-  .icon.i-slider-arrow-top, .flexslider .flex-direction-nav a.i-slider-arrow-top.flex-prev, .flexslider .flex-direction-nav a.i-slider-arrow-top.flex-next, .i-slider-arrow-top.label-price.stick:before, .blue-stripe .action-text .i-slider-arrow-top.stick.label-price:before {
+  .icon.i-slider-arrow-top, .flexslider-main .flex-direction-nav a.i-slider-arrow-top.flex-prev, .flexslider-main .flex-direction-nav a.i-slider-arrow-top.flex-next, .i-slider-arrow-top.label-price.stick:before, .blue-stripe .action-text .i-slider-arrow-top.stick.label-price:before {
     background-position: -174px 0px;
     width: 89px;
     height: 27px; }
-  .icon.i-slider-arrow-bottom, .flexslider .flex-direction-nav a.i-slider-arrow-bottom.flex-prev, .flexslider .flex-direction-nav a.i-slider-arrow-bottom.flex-next, .i-slider-arrow-bottom.label-price.stick:before, .blue-stripe .action-text .i-slider-arrow-bottom.stick.label-price:before {
+  .icon.i-slider-arrow-bottom, .flexslider-main .flex-direction-nav a.i-slider-arrow-bottom.flex-prev, .flexslider-main .flex-direction-nav a.i-slider-arrow-bottom.flex-next, .i-slider-arrow-bottom.label-price.stick:before, .blue-stripe .action-text .i-slider-arrow-bottom.stick.label-price:before {
     background-position: -268px 0px;
     width: 90px;
     height: 27px; }
-  .icon.i-cart-white, .flexslider .flex-direction-nav a.i-cart-white.flex-prev, .flexslider .flex-direction-nav a.i-cart-white.flex-next, .i-cart-white.label-price.stick:before, .blue-stripe .action-text .i-cart-white.stick.label-price:before {
+  .icon.i-cart-white, .flexslider-main .flex-direction-nav a.i-cart-white.flex-prev, .flexslider-main .flex-direction-nav a.i-cart-white.flex-next, .i-cart-white.label-price.stick:before, .blue-stripe .action-text .i-cart-white.stick.label-price:before {
     background-position: -363px 0px;
     width: 24px;
     height: 25px; }
-  .icon.i-cart-blue, .flexslider .flex-direction-nav a.i-cart-blue.flex-prev, .flexslider .flex-direction-nav a.i-cart-blue.flex-next, .i-cart-blue.label-price.stick:before, .blue-stripe .action-text .i-cart-blue.stick.label-price:before {
+  .icon.i-cart-blue, .flexslider-main .flex-direction-nav a.i-cart-blue.flex-prev, .flexslider-main .flex-direction-nav a.i-cart-blue.flex-next, .i-cart-blue.label-price.stick:before, .blue-stripe .action-text .i-cart-blue.stick.label-price:before {
     background-position: -392px 0px;
     width: 25px;
     height: 25px; }
-  .icon.i-item-arrow, .flexslider .flex-direction-nav a.i-item-arrow.flex-prev, .flexslider .flex-direction-nav a.i-item-arrow.flex-next, .i-item-arrow.label-price.stick:before, .blue-stripe .action-text .i-item-arrow.stick.label-price:before {
+  .icon.i-item-arrow, .flexslider-main .flex-direction-nav a.i-item-arrow.flex-prev, .flexslider-main .flex-direction-nav a.i-item-arrow.flex-next, .i-item-arrow.label-price.stick:before, .blue-stripe .action-text .i-item-arrow.stick.label-price:before {
     background-position: -422px 0px;
     width: 27px;
     height: 14px; }
-  .icon.i-item-colored, .flexslider .flex-direction-nav a.i-item-colored.flex-prev, .flexslider .flex-direction-nav a.i-item-colored.flex-next, .i-item-colored.label-price.stick:before, .blue-stripe .action-text .i-item-colored.stick.label-price:before {
+  .icon.i-item-colored, .flexslider-main .flex-direction-nav a.i-item-colored.flex-prev, .flexslider-main .flex-direction-nav a.i-item-colored.flex-next, .i-item-colored.label-price.stick:before, .blue-stripe .action-text .i-item-colored.stick.label-price:before {
     background-position: -454px 0px;
     width: 10px;
     height: 10px; }
-  .icon.i-arrow2-top-red, .flexslider .flex-direction-nav a.i-arrow2-top-red.flex-prev, .flexslider .flex-direction-nav a.i-arrow2-top-red.flex-next, .i-arrow2-top-red.label-price.stick:before, .blue-stripe .action-text .i-arrow2-top-red.stick.label-price:before {
+  .icon.i-arrow2-top-red, .flexslider-main .flex-direction-nav a.i-arrow2-top-red.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow2-top-red.flex-next, .i-arrow2-top-red.label-price.stick:before, .blue-stripe .action-text .i-arrow2-top-red.stick.label-price:before {
     background-position: -469px 0px;
     width: 13px;
     height: 9px; }
-  .icon.i-arrow2-top-blue, .flexslider .flex-direction-nav a.i-arrow2-top-blue.flex-prev, .flexslider .flex-direction-nav a.i-arrow2-top-blue.flex-next, .i-arrow2-top-blue.label-price.stick:before, .blue-stripe .action-text .i-arrow2-top-blue.stick.label-price:before {
+  .icon.i-arrow2-top-blue, .flexslider-main .flex-direction-nav a.i-arrow2-top-blue.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow2-top-blue.flex-next, .i-arrow2-top-blue.label-price.stick:before, .blue-stripe .action-text .i-arrow2-top-blue.stick.label-price:before {
     background-position: -487px 0px;
     width: 13px;
     height: 9px; }
-  .icon.i-increase, .flexslider .flex-direction-nav a.i-increase.flex-prev, .flexslider .flex-direction-nav a.i-increase.flex-next, .i-increase.label-price.stick:before, .blue-stripe .action-text .i-increase.stick.label-price:before {
+  .icon.i-increase, .flexslider-main .flex-direction-nav a.i-increase.flex-prev, .flexslider-main .flex-direction-nav a.i-increase.flex-next, .i-increase.label-price.stick:before, .blue-stripe .action-text .i-increase.stick.label-price:before {
     background-position: -505px 0px;
     width: 8px;
     height: 8px; }
-  .icon.i-sort-desc, .flexslider .flex-direction-nav a.i-sort-desc.flex-prev, .flexslider .flex-direction-nav a.i-sort-desc.flex-next, .i-sort-desc.label-price.stick:before, .blue-stripe .action-text .i-sort-desc.stick.label-price:before {
+  .icon.i-sort-desc, .flexslider-main .flex-direction-nav a.i-sort-desc.flex-prev, .flexslider-main .flex-direction-nav a.i-sort-desc.flex-next, .i-sort-desc.label-price.stick:before, .blue-stripe .action-text .i-sort-desc.stick.label-price:before {
     background-position: -518px 0px;
     width: 9px;
     height: 7px; }
-  .icon.i-sort-asc, .flexslider .flex-direction-nav a.i-sort-asc.flex-prev, .flexslider .flex-direction-nav a.i-sort-asc.flex-next, .i-sort-asc.label-price.stick:before, .blue-stripe .action-text .i-sort-asc.stick.label-price:before {
+  .icon.i-sort-asc, .flexslider-main .flex-direction-nav a.i-sort-asc.flex-prev, .flexslider-main .flex-direction-nav a.i-sort-asc.flex-next, .i-sort-asc.label-price.stick:before, .blue-stripe .action-text .i-sort-asc.stick.label-price:before {
     background-position: -532px 0px;
     width: 9px;
     height: 7px; }
-  .icon.i-key, .flexslider .flex-direction-nav a.i-key.flex-prev, .flexslider .flex-direction-nav a.i-key.flex-next, .i-key.label-price.stick:before, .blue-stripe .action-text .i-key.stick.label-price:before {
+  .icon.i-key, .flexslider-main .flex-direction-nav a.i-key.flex-prev, .flexslider-main .flex-direction-nav a.i-key.flex-next, .i-key.label-price.stick:before, .blue-stripe .action-text .i-key.stick.label-price:before {
     background-position: -518px -12px;
     width: 15px;
     height: 7px; }
-  .icon.i-arrow-down-green, .flexslider .flex-direction-nav a.i-arrow-down-green.flex-prev, .flexslider .flex-direction-nav a.i-arrow-down-green.flex-next, .i-arrow-down-green.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-green.stick.label-price:before {
+  .icon.i-arrow-down-green, .flexslider-main .flex-direction-nav a.i-arrow-down-green.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow-down-green.flex-next, .i-arrow-down-green.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-green.stick.label-price:before {
     background-position: -546px 0px;
     width: 10px;
     height: 5px; }
-  .icon.i-arrow-down-red, .flexslider .flex-direction-nav a.i-arrow-down-red.flex-prev, .flexslider .flex-direction-nav a.i-arrow-down-red.flex-next, .i-arrow-down-red.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-red.stick.label-price:before {
+  .icon.i-arrow-down-red, .flexslider-main .flex-direction-nav a.i-arrow-down-red.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow-down-red.flex-next, .i-arrow-down-red.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-red.stick.label-price:before {
     background-position: -546px -10px;
     width: 10px;
     height: 5px; }
-  .icon.i-bg-heading, .flexslider .flex-direction-nav a.i-bg-heading.flex-prev, .flexslider .flex-direction-nav a.i-bg-heading.flex-next, .i-bg-heading.label-price.stick:before, .blue-stripe .action-text .i-bg-heading.stick.label-price:before {
+  .icon.i-bg-heading, .flexslider-main .flex-direction-nav a.i-bg-heading.flex-prev, .flexslider-main .flex-direction-nav a.i-bg-heading.flex-next, .i-bg-heading.label-price.stick:before, .blue-stripe .action-text .i-bg-heading.stick.label-price:before {
     background-position: -505px -13px;
     width: 8px;
     height: 5px; }
-  .icon.i-arrow-down-blue, .flexslider .flex-direction-nav a.i-arrow-down-blue.flex-prev, .flexslider .flex-direction-nav a.i-arrow-down-blue.flex-next, .i-arrow-down-blue.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-blue.stick.label-price:before {
+  .icon.i-arrow-down-blue, .flexslider-main .flex-direction-nav a.i-arrow-down-blue.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow-down-blue.flex-next, .i-arrow-down-blue.label-price.stick:before, .blue-stripe .action-text .i-arrow-down-blue.stick.label-price:before {
     background-position: -469px -14px;
     width: 10px;
     height: 5px; }
-  .icon.i-arrow-top-white, .flexslider .flex-direction-nav a.i-arrow-top-white.flex-prev, .flexslider .flex-direction-nav a.i-arrow-top-white.flex-next, .i-arrow-top-white.label-price.stick:before, .blue-stripe .action-text .i-arrow-top-white.stick.label-price:before {
+  .icon.i-arrow-top-white, .flexslider-main .flex-direction-nav a.i-arrow-top-white.flex-prev, .flexslider-main .flex-direction-nav a.i-arrow-top-white.flex-next, .i-arrow-top-white.label-price.stick:before, .blue-stripe .action-text .i-arrow-top-white.stick.label-price:before {
     background-position: -484px -14px;
     width: 12px;
     height: 5px; }
-  .icon.i-list-dotted, .flexslider .flex-direction-nav a.i-list-dotted.flex-prev, .flexslider .flex-direction-nav a.i-list-dotted.flex-next, .i-list-dotted.label-price.stick:before, .blue-stripe .action-text .i-list-dotted.stick.label-price:before {
+  .icon.i-list-dotted, .flexslider-main .flex-direction-nav a.i-list-dotted.flex-prev, .flexslider-main .flex-direction-nav a.i-list-dotted.flex-next, .i-list-dotted.label-price.stick:before, .blue-stripe .action-text .i-list-dotted.stick.label-price:before {
     background-position: -538px -12px;
     width: 3px;
     height: 3px; }
-  .icon.i-list-disc-line, .flexslider .flex-direction-nav a.i-list-disc-line.flex-prev, .flexslider .flex-direction-nav a.i-list-disc-line.flex-next, .i-list-disc-line.label-price.stick:before, .blue-stripe .action-text .i-list-disc-line.stick.label-price:before {
+  .icon.i-list-disc-line, .flexslider-main .flex-direction-nav a.i-list-disc-line.flex-prev, .flexslider-main .flex-direction-nav a.i-list-disc-line.flex-next, .i-list-disc-line.label-price.stick:before, .blue-stripe .action-text .i-list-disc-line.stick.label-price:before {
     background-position: -422px -19px;
     width: 16px;
     height: 2px; }
-  .icon.i-decrease, .flexslider .flex-direction-nav a.i-decrease.flex-prev, .flexslider .flex-direction-nav a.i-decrease.flex-next, .i-decrease.label-price.stick:before, .blue-stripe .action-text .i-decrease.stick.label-price:before {
+  .icon.i-decrease, .flexslider-main .flex-direction-nav a.i-decrease.flex-prev, .flexslider-main .flex-direction-nav a.i-decrease.flex-next, .i-decrease.label-price.stick:before, .blue-stripe .action-text .i-decrease.stick.label-price:before {
     background-position: -454px -15px;
     width: 8px;
     height: 2px; }
@@ -3460,7 +3599,7 @@ header {
     position: relative; }
     .main-search .row.row-btn {
       margin-top: 0; }
-      .main-search .row.row-btn input[type=text], .main-search .row.row-btn .icon, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-prev, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-next, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-next, .main-search .row.row-btn .label-price.stick:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:before {
+      .main-search .row.row-btn input[type=text], .main-search .row.row-btn .icon, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-prev, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-prev, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-next, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-next, .main-search .row.row-btn .label-price.stick:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:before {
         display: block;
         background: url(../img/main_search.png) 0 0 no-repeat;
         background-size: 100%;
@@ -3471,15 +3610,15 @@ header {
         padding: 0px 125px 0px 15px;
         color: #b2b2b2;
         font-size: 1.45em; }
-        .main-search .row.row-btn input[type=text]:focus, .main-search .row.row-btn .icon:focus, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-prev:focus, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-prev:focus, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-next:focus, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-next:focus, .main-search .row.row-btn .label-price.stick:focus:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:focus:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:focus:before {
+        .main-search .row.row-btn input[type=text]:focus, .main-search .row.row-btn .icon:focus, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-prev:focus, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-prev:focus, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-next:focus, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-next:focus, .main-search .row.row-btn .label-price.stick:focus:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:focus:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:focus:before {
           border: medium none;
           -webkit-box-shadow: none;
           -moz-box-shadow: none;
           box-shadow: none; }
-        .main-search .row.row-btn input[type=text]::-webkit-input-placeholder, .main-search .row.row-btn .icon::-webkit-input-placeholder, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-prev::-webkit-input-placeholder, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-prev::-webkit-input-placeholder, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-next::-webkit-input-placeholder, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-next::-webkit-input-placeholder, .main-search .row.row-btn .label-price.stick::-webkit-input-placeholder:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price::-webkit-input-placeholder:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price::-webkit-input-placeholder:before {
+        .main-search .row.row-btn input[type=text]::-webkit-input-placeholder, .main-search .row.row-btn .icon::-webkit-input-placeholder, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-prev::-webkit-input-placeholder, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-prev::-webkit-input-placeholder, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-next::-webkit-input-placeholder, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-next::-webkit-input-placeholder, .main-search .row.row-btn .label-price.stick::-webkit-input-placeholder:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price::-webkit-input-placeholder:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price::-webkit-input-placeholder:before {
           color: #b2b2b2;
           line-height: 42px; }
-        .main-search .row.row-btn input[type=text]:-moz-placeholder, .main-search .row.row-btn .icon:-moz-placeholder, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-prev:-moz-placeholder, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-prev:-moz-placeholder, .main-search .row.row-btn .flexslider .flex-direction-nav a.flex-next:-moz-placeholder, .flexslider .flex-direction-nav .main-search .row.row-btn a.flex-next:-moz-placeholder, .main-search .row.row-btn .label-price.stick:-moz-placeholder:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:-moz-placeholder:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:-moz-placeholder:before {
+        .main-search .row.row-btn input[type=text]:-moz-placeholder, .main-search .row.row-btn .icon:-moz-placeholder, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-prev:-moz-placeholder, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-prev:-moz-placeholder, .main-search .row.row-btn .flexslider-main .flex-direction-nav a.flex-next:-moz-placeholder, .flexslider-main .flex-direction-nav .main-search .row.row-btn a.flex-next:-moz-placeholder, .main-search .row.row-btn .label-price.stick:-moz-placeholder:before, .main-search .row.row-btn .blue-stripe .action-text .stick.label-price:-moz-placeholder:before, .blue-stripe .action-text .main-search .row.row-btn .stick.label-price:-moz-placeholder:before {
           color: #b2b2b2;
           line-height: 42px; }
       .main-search .row.row-btn input[type=submit] {
@@ -3573,7 +3712,7 @@ aside ul a {
     font-family: 'MyriadPro-Bold';
     font-size: 2.2em;
     text-decoration: underline; }
-    .cart-block .cart-block-title .icon.i-cart-blue, .cart-block .cart-block-title .flexslider .flex-direction-nav a.i-cart-blue.flex-prev, .flexslider .flex-direction-nav .cart-block .cart-block-title a.i-cart-blue.flex-prev, .cart-block .cart-block-title .flexslider .flex-direction-nav a.i-cart-blue.flex-next, .flexslider .flex-direction-nav .cart-block .cart-block-title a.i-cart-blue.flex-next, .cart-block .cart-block-title .i-cart-blue.label-price.stick:before, .cart-block .cart-block-title .blue-stripe .action-text .i-cart-blue.stick.label-price:before, .blue-stripe .action-text .cart-block .cart-block-title .i-cart-blue.stick.label-price:before {
+    .cart-block .cart-block-title .icon.i-cart-blue, .cart-block .cart-block-title .flexslider-main .flex-direction-nav a.i-cart-blue.flex-prev, .flexslider-main .flex-direction-nav .cart-block .cart-block-title a.i-cart-blue.flex-prev, .cart-block .cart-block-title .flexslider-main .flex-direction-nav a.i-cart-blue.flex-next, .flexslider-main .flex-direction-nav .cart-block .cart-block-title a.i-cart-blue.flex-next, .cart-block .cart-block-title .i-cart-blue.label-price.stick:before, .cart-block .cart-block-title .blue-stripe .action-text .i-cart-blue.stick.label-price:before, .blue-stripe .action-text .cart-block .cart-block-title .i-cart-blue.stick.label-price:before {
       vertical-align: -4px; }
   .cart-block .items-cart {
     font-size: 1.3em; }
