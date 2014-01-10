@@ -25,8 +25,8 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
-    <!--<script src="js/jquery-1.9.0.min.js"></script>-->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.9.0.min.js"></script>
+<!--    <script src="js/jquery.js"></script>-->
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="js/modernizr.js"></script>
     <!-- Add fancyBox main JS and CSS files -->

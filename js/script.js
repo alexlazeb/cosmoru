@@ -2,8 +2,9 @@ function include(jsFile){document.write('<script type="text/javascript" src="js/
 
 include("jquery.easing.1.3.min.js");
 include("jquery.mousewheel-3.0.6.pack.js");
+include("jquery-ui-1.10.3.custom.min.js");
 include("jquery.easytabs.min.js");
-include("jquery.tooltipster.min.js");
+include("qtip/jquery.qtip.min.js");
 include("autocomplete/jquery.autocomplete.js");
 include("autocomplete/jquery.autocomplete.config.js");
 include("jquery.spinner.js");
@@ -70,6 +71,47 @@ function initialise(content) {
         sync: "#carousel-item"
     });
     $('#checkout-container').easytabs();
+    // discount slider
+    $( ".slider_amount_range" ).slider({
+        value:2200,
+        min: 0,
+        max: 10000,
+        step: 200,
+        slide: function( event, ui ) {
+            $( ".slider_amount" ).val( ui.value + " рублей");
+        }
+    });
+    $( ".slider_amount" ).val( $( ".slider_amount_range" ).slider( "value" ) + " рублей");
+    // Tooltip
+    $('.tooltip_link').each(function() { // Notice the .each() loop, discussed below
+        $(this).qtip({
+            content: {
+                text: $(this).next('.tooltiptext') // Use the "div" element next to this for the content
+            },
+            position: {
+                my: 'top center',  // Position my top left...
+                at: 'bottom center' // at the bottom right of...
+//                target: $('.tooltip_link') // my target
+            },
+            style: {
+                classes: 'qtip-bootstrap qtip-shadow qtip-rounded',
+                tip: {
+                    border: 1,
+                    width: 12,
+                    height: 6
+                }
+            },
+            hide: {
+                fixed: true,
+                delay: 300
+//                event: false,
+//                inactive: 2000
+            },
+            show: {
+                delay: 200
+            }
+        });
+    });
     //Вход
     $(".show_link").click(function(){
         $(this).parent().children('div').removeClass('hide');
@@ -112,7 +154,8 @@ function initialise(content) {
         $(this).children("td:last-child").children("a").addClass("hide");
     });
 
-    if($.browser.msie){
+//    if($.browser.msie){
+    if (navigator.userAgent.indexOf('MSIE') > -1) {
         $('input[placeholder]').each(function(){
             var input = $(this);
             $(input).val(input.attr('placeholder'));

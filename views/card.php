@@ -38,16 +38,16 @@
                 <div id="slider-item" class="flexslider item-slider t-center">
                     <ul class="slides">
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <!-- items mirrored twice, total of 12 -->
                     </ul>
@@ -55,16 +55,16 @@
                 <div id="carousel-item" class="flexslider item-slider">
                     <ul class="slides">
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <li>
-                            <img src="/pic/slider_product_pic.jpg" />
+                            <img src="pic/slider_product_pic.jpg" />
                         </li>
                         <!-- items mirrored twice, total of 12 -->
                     </ul>
@@ -91,30 +91,35 @@
                     <form action="" method="post">
                         <div class="row">
                             <ul class="card-product-list line-list-left">
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                                <li><a class="choose_btn" href="#"><img width="52px" src="/pic/item_color_select_pic16.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                                <li><a class="choose_btn" href="#"><img width="52px" src="pic/item_color_select_pic16.png" alt=""/></a></li>
                             </ul>
                         </div>
                         <div class="row row-btn">
                             <span class="product-price old">228 р</span>
-                            <a class="btn btn-green btn-cart wide t-shadow round-15" href="#">
+                            <a class="btn btn-green btn-cart wide t-shadow round-15 tooltip_link" href="#">
                                 <span>1 221 р</span>
                                 <span>В корзину</span>
                             </a>
+                            <div class="tooltiptext hidden">
+                               <span>В корзине</span>
+                                <input type="text" class="item_spinner line-list"/>
+                                <a class="btn btn-green round-15 t-shadow t-center wide line-list" href="cart.html">Перейти в корзину</a>
+                            </div>
                         </div>
                     </form>
 
@@ -216,7 +221,7 @@
             <ul class="section-product-list line-list-left clear-fix">
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -230,7 +235,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -244,7 +249,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -258,7 +263,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -272,7 +277,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -286,7 +291,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -300,7 +305,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -314,7 +319,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -347,12 +352,13 @@
         <p class="size-15 bold"><a href="#">Выбирайте скидку сами!</a></p>
     </div>
     <div class="choose-discount arrow-2 blue">
-        <p>
-            Я куплю на
+        <p>Я куплю на </p>
+        <div class="slider-amount-wrap">
             <input class="slider_amount shadow w100" type="text" value="2200 рублей"/>
-            и получу скидку
-            <span class="big">22 %</span>
-        </p>
+            <div class="slider_amount_range"></div>
+        </div>
+        <p>и получу скидку</p>
+        <p><span class="big">22 %</span></p>
         <a class="btn btn-blue t-shadow shadow w100 round-15" href="#">Применить</a>
     </div>
     <div class="choose-discount arrow-2 blue hide">
@@ -377,7 +383,7 @@
                 <ul class="watched-product-list slides">
                     <li class="round-5 t-center">
                         <figure class="t-center">
-                            <img width="35px" src="/pic/item.jpg" alt=""/>
+                            <img width="35px" src="pic/item.jpg" alt=""/>
                             <figcaption>
                                 <div class="product-name">Helen Seward </div>
                                 <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -391,7 +397,7 @@
                     </li>
                     <li class="round-5 t-center">
                         <figure class="t-center">
-                            <img width="35px" src="/pic/item.jpg" alt=""/>
+                            <img width="35px" src="pic/item.jpg" alt=""/>
                             <figcaption>
                                 <div class="product-name">Helen Seward </div>
                                 <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -405,7 +411,7 @@
                     </li>
                     <li class="round-5 t-center">
                         <figure class="t-center">
-                            <img width="35px" src="/pic/item.jpg" alt=""/>
+                            <img width="35px" src="pic/item.jpg" alt=""/>
                             <figcaption>
                                 <div class="product-name">Helen Seward </div>
                                 <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -419,7 +425,7 @@
                     </li>
                     <li class="round-5 t-center">
                         <figure class="t-center">
-                            <img width="35px" src="/pic/item.jpg" alt=""/>
+                            <img width="35px" src="pic/item.jpg" alt=""/>
                             <figcaption>
                                 <div class="product-name">Helen Seward </div>
                                 <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -433,7 +439,7 @@
                     </li>
                     <li class="round-5 t-center">
                         <figure class="t-center">
-                            <img width="35px" src="/pic/item.jpg" alt=""/>
+                            <img width="35px" src="pic/item.jpg" alt=""/>
                             <figcaption>
                                 <div class="product-name">Helen Seward </div>
                                 <a class="product_item" href="#">Маска для всех типов волос</a>

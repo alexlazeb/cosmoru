@@ -130,7 +130,7 @@
             <ul class="section-product-list line-list-left clear-fix">
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -148,7 +148,7 @@
                         <div class="flipper__stage">
                             <div class="flipper__front">
                                 <figure class="t-center">
-                                    <img src="/pic/item.jpg" alt=""/>
+                                    <img src="pic/item.jpg" alt=""/>
                                     <figcaption>
                                         <div class="product-name">Helen Seward </div>
                                         <a class="product_item" href="#">Маска для всех типов волос с аргановым маслом Argan Elisir Mask</a>
@@ -159,22 +159,22 @@
                             <div class="flipper__back " style="height: 280px;">
                                 <div class="back_title t-center">Таинственная черная краска</div>
                                 <ul class="back_product_list line-list-left">
-                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic16.png" alt=""/></a></li>
+                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic16.png" alt=""/></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                         <div class="flipper__stage">
                             <div class="flipper__front">
                                 <figure class="t-center">
-                                    <img src="/pic/item.jpg" alt=""/>
+                                    <img src="pic/item.jpg" alt=""/>
                                     <figcaption>
                                         <div class="product-name">Helen Seward </div>
                                         <a class="product_item" href="#">Маска для всех типов волос с аргановым маслом Argan Elisir Mask</a>
@@ -201,26 +201,26 @@
                             <div class="flipper__back " style="height: 280px;">
                                 <div class="back_title t-center">Таинственная черная краска</div>
                                 <ul class="back_product_list full line-list-left">
-                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic16.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic17.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic18.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic19.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic20.png" alt=""/></a></li>
+                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic16.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic17.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic18.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic19.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic20.png" alt=""/></a></li>
                                 </ul>
                                 <a class="all_link t-center block" href="#"><span>Показать все 123 цвета</span></a>
                             </div>
@@ -237,7 +237,7 @@
                         <div class="flipper__stage">
                             <div class="flipper__front">
                                 <figure class="t-center">
-                                    <img src="/pic/item.jpg" alt=""/>
+                                    <img src="pic/item.jpg" alt=""/>
                                     <figcaption>
                                         <div class="product-name">Helen Seward </div>
                                         <a class="product_item" href="#">Маска для всех типов волос с аргановым маслом Argan Elisir Mask</a>
@@ -248,22 +248,22 @@
                             <div class="flipper__back " style="height: 280px;">
                                 <div class="back_title t-center">Таинственная черная краска</div>
                                 <ul class="back_product_list line-list-left">
-                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                                    <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic16.png" alt=""/></a></li>
+                                    <li><a id="choose_btn" class="choose_btn" href="#"><img src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                                    <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic16.png" alt=""/></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -275,7 +275,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -289,7 +289,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -304,26 +304,26 @@
                 <li class="w25 round-5 selected full_hidden name">
                     <div class="back_title  t-center">Таинственная черная краска</div>
                     <ul class="back_product_list full line-list-left">
-                        <li><a id="choose_btn" class="choose_btn" href="#"><img src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic16.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic17.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic18.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic19.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic20.png" alt=""/></a></li>
+                        <li><a id="choose_btn" class="choose_btn" href="#"><img src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic16.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic17.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic18.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic19.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic20.png" alt=""/></a></li>
                     </ul>
                     <a class="all_link t-center block" href="#"><span>Показать все 123 цвета</span></a>
                     <a class="btn btn-green btn-cart w90 h-center b-small t-shadow round-15" href="#">
@@ -334,7 +334,7 @@
                 <li class="w25 round-5 selected colored asc">
                     <a class="colored_item_link" href="#"><span class="icon i-item-colored pull-left"></span><span>33 цвета</span></a>
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос с аргановым маслом Argan Elisir Mask</a>
@@ -348,7 +348,7 @@
                 </li>
                 <li class="w25 round-5 asc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -362,7 +362,7 @@
                 </li>
                 <li class="w25 round-5 desc">
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос</a>
@@ -377,26 +377,26 @@
                 <li class="w25 round-5 selected full_hidden name">
                     <div class="back_title  t-center">Таинственная черная краска</div>
                     <ul class="back_product_list full line-list-left">
-                        <li><a id="choose_btn" class="choose_btn" href="#"><img src="/pic/item_color_select_pic1.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic2.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic3.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic4.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic5.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic6.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic7.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic8.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic9.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic10.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic11.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic12.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic13.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic15.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic16.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic17.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic18.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic19.png" alt=""/></a></li>
-                        <li><a class="choose_btn" href="#"><img src="/pic/item_color_select_pic20.png" alt=""/></a></li>
+                        <li><a id="choose_btn" class="choose_btn" href="#"><img src="pic/item_color_select_pic1.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic2.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic3.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic4.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic5.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic6.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic7.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic8.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic9.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic10.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic11.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic12.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic13.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic15.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic16.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic17.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic18.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic19.png" alt=""/></a></li>
+                        <li><a class="choose_btn" href="#"><img src="pic/item_color_select_pic20.png" alt=""/></a></li>
                     </ul>
                     <a class="all_link t-center block" href="#"><span>Показать все 123 цвета</span></a>
                     <a class="btn btn-green btn-cart w90 h-center b-small t-shadow round-15" href="#">
@@ -407,7 +407,7 @@
                 <li class="w25 round-5 selected colored desc">
                     <a class="colored_item_link" href="#"><span class="icon i-item-colored pull-left"></span><span>33 цвета</span></a>
                     <figure class="t-center">
-                        <img src="/pic/item.jpg" alt=""/>
+                        <img src="pic/item.jpg" alt=""/>
                         <figcaption>
                             <div class="product-name">Helen Seward </div>
                             <a class="product_item" href="#">Маска для всех типов волос с аргановым маслом Argan Elisir Mask</a>

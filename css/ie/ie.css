@@ -13,3 +13,5 @@
     zoom: 1;
 }
 .section-product-list > li .back_product_list li,.section-product-list > LI.selected UL LI {margin-left: 3px;}
+.flex-direction-nav .flex-next {background-position: 100% 0; right: -9999px; }
+/*.flex-direction-nav .flex-prev {left: -5px;}*/

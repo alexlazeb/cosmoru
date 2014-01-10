@@ -25,8 +25,8 @@
     <!--[if lt IE 9]>
     <link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
-    <!--<script src="js/jquery-1.9.0.min.js"></script>-->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.9.0.min.js"></script>
+<!--    <script src="js/jquery.js"></script>-->
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="js/modernizr.js"></script>
     <!-- Add fancyBox main JS and CSS files -->
@@ -133,7 +133,7 @@
                                     <tr>
                                         <td>
                                             <div class="cart-item clear-fix">
-                                                <img class="left" width="50px" src="/pic/item.jpg" alt=""/>
+                                                <img class="left" width="50px" src="pic/item.jpg" alt=""/>
                                                 <div class="description">
                                                     <a class="item_link" href="#">Желтая косметическая глина с очень длинным названием 100 гр</a>
                                                     <div class="row">
@@ -146,7 +146,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <span class="label">Цвет:</span>
-                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="/pic/item_color_select_pic20.png" alt=""/></a>
+                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="pic/item_color_select_pic20.png" alt=""/></a>
                                                     </div>
                                                      
                                                 </div>
@@ -159,7 +159,7 @@
                                     <tr>
                                         <td>
                                             <div class="cart-item clear-fix">
-                                                <img class="left" width="50px" src="/pic/item.jpg" alt=""/>
+                                                <img class="left" width="50px" src="pic/item.jpg" alt=""/>
                                                 <div class="description">
                                                     <a class="item_link" href="#">Желтая косметическая глина с очень длинным названием 100 гр</a>
                                                     <div class="row">
@@ -172,7 +172,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <span class="label">Цвет:</span>
-                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="/pic/item_color_select_pic20.png" alt=""/></a>
+                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="pic/item_color_select_pic20.png" alt=""/></a>
                                                     </div>
                                                     
                                                 </div>
@@ -185,7 +185,7 @@
                                     <tr>
                                         <td>
                                             <div class="cart-item clear-fix">
-                                                <img class="left" width="50px" src="/pic/item.jpg" alt=""/>
+                                                <img class="left" width="50px" src="pic/item.jpg" alt=""/>
                                                 <div class="description">
                                                     <a class="item_link" href="#">Желтая косметическая глина с очень длинным названием 100 гр</a>
                                                     <div class="row">
@@ -198,7 +198,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <span class="label">Цвет:</span>
-                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="/pic/item_color_select_pic20.png" alt=""/></a>
+                                                        <a href="#"><span>Светлый блонд 13337</span><img width="15px" height="15px" src="pic/item_color_select_pic20.png" alt=""/></a>
                                                     </div>
                                                     
                                                 </div>
