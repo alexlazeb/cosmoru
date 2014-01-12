@@ -451,6 +451,49 @@
                             <span class="icon i-cart-white"></span>
                         </a>
                     </li>
+                    <li class="round-5 t-center">
+                        <figure class="t-center">
+                            <img width="35px" src="pic/item.jpg" alt=""/>
+                            <figcaption>
+                                <div class="product-name">Helen Seward </div>
+                                <a class="product_item" href="#">Маска для всех типов волос</a>
+                                <span class="t-center product-price old">2 222 р</span>
+                            </figcaption>
+                        </figure>
+                        <a class="btn btn-green btn-cart b-small h-center t-shadow round-15" href="#">
+                            <span>1 221 р</span>
+                            <span class="icon i-cart-white"></span>
+                        </a>
+                    </li>
+                    <li class="round-5 t-center">
+                        <figure class="t-center">
+                            <img width="35px" src="pic/item.jpg" alt=""/>
+                            <figcaption>
+                                <div class="product-name">Helen Seward </div>
+                                <a class="product_item" href="#">Маска для всех типов волос</a>
+                                <span class="t-center product-price old">2 222 р</span>
+                            </figcaption>
+                        </figure>
+                        <a class="btn btn-green btn-cart b-small h-center t-shadow round-15" href="#">
+                            <span>1 221 р</span>
+                            <span class="icon i-cart-white"></span>
+                        </a>
+                    </li>
+                    <li class="round-5 t-center">
+                        <figure class="t-center">
+                            <img width="35px" src="pic/item.jpg" alt=""/>
+                            <figcaption>
+                                <div class="product-name">Helen Seward </div>
+                                <a class="product_item" href="#">Маска для всех типов волос</a>
+                                <span class="t-center product-price old">2 222 р</span>
+                            </figcaption>
+                        </figure>
+                        <a class="btn btn-green btn-cart b-small h-center t-shadow round-15" href="#">
+                            <span>1 221 р</span>
+                            <span class="icon i-cart-white"></span>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
 

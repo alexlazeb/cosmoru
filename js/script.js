@@ -49,7 +49,22 @@ function initialise(content) {
         circular: false,
         mousewheel: true
     });
-
+    var countSliderClick = 1;
+    var countSliderElement = $("#sideRight .watched-product-list li").length-3;
+    $("#sideRight .module .btn-control a").click(function(){
+        countSliderClick++;
+        if ((countSliderClick)%(countSliderElement*2+1) <= countSliderElement){
+            $("#sideRight .module .btn-control a.btn-v-prev").addClass('disabled');
+            $("#sideRight .module .btn-control a.btn-v-next").removeClass("disabled");
+        }
+        if ((countSliderClick)%(countSliderElement*2+1) > countSliderElement){
+            $("#sideRight .module .btn-control a.btn-v-next").addClass('disabled');
+            $("#sideRight .module .btn-control a.btn-v-prev").removeClass("disabled");
+        }
+        if (countSliderClick == (countSliderElement*2)){
+            countSliderClick = 0;
+        }
+    });
     // The slider being synced must be initialized first
     $('#carousel-item').flexslider({
         animation: "slide",

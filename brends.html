@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="/js/qtip/jquery.qtip.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="js/qtip/jquery.qtip.css" type="text/css" media="screen, projection" />
     <link href="http://fnt.webink.com/wfs/webink.css/?project=85797F87-DC42-4117-8FB5-653DD6EF7A26&fonts=73E6C83D-7F13-A8AE-4770-C315AE5061C3:f=MyriadPro-Regular,1421BCAA-4D56-EF9D-A008-8F0EFD21830C:f=MyriadPro-Bold,73FEA18A-033F-AE20-4C65-461CA87E3CF3:f=MyriadPro-It,F7BFE656-C078-45C2-FE87-230C4CB9A997:f=MyriadPro-SemiboldIt,050FBD0F-5D55-410F-DC57-586D49D25BCB:f=MyriadPro-Semibold,929B8C2C-C67C-8345-92BA-BFA9AFEEDF57:f=MyriadPro-BoldIt" rel="stylesheet" type="text/css"/>
     <!--<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen, projection" />-->
     <!--[if lt IE 8]>
