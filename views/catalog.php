@@ -138,7 +138,7 @@
                         </figcaption>
                     </figure>
                     <a class="btn btn-green btn-cart b-small w90 h-center t-shadow round-15" href="#">
-                        <span>1 221 р</span>
+                        <span>1 2р</span>
                         <span>В корзину</span>
                     </a>
                 </li>

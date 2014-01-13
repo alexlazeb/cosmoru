@@ -131,8 +131,13 @@ function initialise(content) {
     $(".show_link").click(function(){
         $(this).parent().children('div').removeClass('hide');
         $(this).parent().parent().children('div.top-panel-tel').addClass('hide');
+        $(this).parent().parent().parent().addClass('auth-open');
         $(this).addClass('hide');
         return false;
+    });
+    $('.section-product-list li .btn.btn-cart').each(function() {
+        var width = parseInt($(this).css("width"));
+        $(this).css({'left' : '50%', 'margin-left' : -width/2});
     });
 
 //    var $container = $('#sortable-product');

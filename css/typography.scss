@@ -70,11 +70,12 @@ nav{
   }
 }
 
-section,article,.brend-letter-list,.pagination{
+section,article,.brend-letter-list,.pagination,.section-checkout .panel-container-section,header,.header-top-panel,
+.module .all_link,.nav-primary{
   a,.product_item{
     &:hover{color: #ee2e24;text-decoration: underline;}
   }
 }
-footer, header,.quick-nav .sub_cat_list, .arrow,.breadcrumbs,.cart-block-title{
+.quick-nav .sub_cat_list, .arrow{
   a:hover{text-decoration: none;color: inherit;}
 }

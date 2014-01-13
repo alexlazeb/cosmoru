@@ -201,8 +201,8 @@ body{
     background-color: #fff;
     .section-top{
       margin: -28px 0px 0px 0px;
-      padding-top: 28px;
-      padding-bottom: 20px;
+      padding-top: 38px; // +10
+      padding-bottom: 30px; // +10
       background: $bg-color;
       @include prefix(box-shadow,inset 0px 2px 20px rgba(0, 43, 73, 0.2));
     }
@@ -259,6 +259,10 @@ input[type=text],input[type=password],input[type=tel],input[type=email],textarea
       position: relative;
       .devider{display: inline-block;margin: 0px 2px;}
       a{
+        &:hover{
+          text-decoration: underline;
+          color: #ee2e24;
+        }
         margin-right: 5px;
       }
       p,span,a{
@@ -299,6 +303,7 @@ header{
   background: url(../img/shadow_menu.png) center bottom no-repeat;
   padding-bottom: 18px;
   .header-top-panel{
+    &.auth-open{padding: 6px 0px;}
     background: #1c353e;
     color: #fff;
     padding: 8px 0px;
@@ -549,7 +554,8 @@ aside{
 hr{@include prefix(box-sizing,content-box);}
 
 .pagination{
-  overflow: hidden;
+  //overflow: hidden;
+  height: 37px;
   margin: 10px 0px;
   ul{
     li{

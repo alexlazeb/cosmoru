@@ -3,9 +3,6 @@
 @force-import 'common';
 
 form{
-  &.form-blue-style{
-    @extend .form-blue-style;
-  }
   .row{
     &:first-child{margin-top: 0;}
     &.row-btn{margin-bottom: 0;margin-top: 16px;}
@@ -165,7 +162,10 @@ form{
 
 // BUTTON
 .btn{
-  &:hover{text-decoration: none !important;}
+  &:hover{
+    text-decoration: none !important;color: inherit;
+    >span{color: inherit;}
+  }
   &.b-small{
     height: 26px;
     line-height: 26px;
@@ -322,7 +322,7 @@ form{
 
   button{
     &:hover,&:active{
-      color: #74c900;
+      color: #ee2e24;
       margin: 0;
       padding: 0;
       outline: none;
@@ -340,7 +340,7 @@ form{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
     border: none;
     width: 20px;
-    color: #ee2e24;
+    color: #74c900;
     //font: 20px Arial bold;
     padding: 0;
     outline: none;
@@ -395,3 +395,9 @@ form{
   font-family: 'MyriadPro-Semibold';
 }
 
+//.styled-radio-label{
+//  display: block;
+//  >p{
+//    margin: 5px 0px;
+//  }
+//}

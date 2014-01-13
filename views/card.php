@@ -349,7 +349,7 @@
         <p><a href="#"><span>Изменить скидку</span></a></p>
     </div>
     <div class="choose-discount arrow-2 red hide">
-        <p class="size-15 bold"><a href="#">Выбирайте скидку сами!</a></p>
+        <p class="size-15"><a href="#">Выбирайте скидку сами!</a></p>
     </div>
     <div class="choose-discount arrow-2 blue">
         <p>Я куплю на </p>

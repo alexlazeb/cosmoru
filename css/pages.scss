@@ -225,7 +225,8 @@
   padding-top: 0px !important;
   font-family: 'MyriadPro-Regular';
   .cat_link{
-    color: #00a3df;
+    &:hover{}
+    //color: #00a3df;
     font-size: 1.6em;
     font-family: 'MyriadPro-Semibold';
     margin-bottom: 5px;
@@ -244,7 +245,9 @@
       &:last-child{margin-right: 0;}
       margin-right: 5px;
       color: #00455e;
-      a{font-size: 1.3em;color: #00455e;
+      a{
+        &:hover{color: #ee2e24;}
+        font-size: 1.3em;color: #00455e;
         //letter-spacing: -0.25px;
       }
     }
@@ -648,10 +651,14 @@
       @extend .round-5;
         @include prefix(transition, all .15s linear, $o:true, $ms:true);
        background: #e8f9ff;
-        a{span{border-bottom: medium none;}}
+        a{
+          &:hover{color: $color-link;}
+          span{border-bottom: medium none;}
+        }
       }
       padding: 8px 10px;
       a{
+        &:hover{color: #ee2e24;span{border-color: #ee2e24;}}
         color: #00a3df;
         font-size: 16px;
         font-family: 'MyriadPro-Semibold';

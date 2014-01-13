@@ -1,7 +1,14 @@
 /* CONTENT STYLE*/
 
 article{
-  &.text{padding-right: 5%;}
+  &.text{
+    padding-right: 6%;
+    padding-top: 8px;
+    p{
+      margin: 0 0 24px;
+    }
+    h1,h2,h3,h4{margin-bottom: 12px;}
+  }
   &.main-article{
     h1{width: 90%;}
   }
@@ -33,7 +40,8 @@ article{
     font-family: 'MyriadPro-Regular';
     line-height: 1.2;
     font-size: 12px;
-    &.big{font-size: 15px;}
+    &.no-m{margin: 0 !important;}
+    &.big{font-size: 16px;margin: 0 0 20px;}
     &.biggest{font-size: 18px;}
   }
   h1{font-size: 30px;}
@@ -43,13 +51,13 @@ article{
     &.line-disc{
       li{
         background: url(../img/list_disc_line.png) 0 10px no-repeat;
-        padding-left: 20px;
+        padding-left: 18px;
         margin: 5px 0px;
       }
     }
     li{
       font-size: 16px;
-      line-height: 1.25;
+      line-height: 19px;
       color: $color-text;
       font-family: 'MyriadPro-Regular';
       p{margin: 0;}

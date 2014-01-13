@@ -48,7 +48,7 @@ ul.dotted-round-list{
   >li{
     &.selected{
       .colored_item_link{
-        &:hover{text-decoration: none;span{border: medium none;}}
+        &:hover{text-decoration: none;span{border: medium none;text-decoration: underline;}}
         display: block;
         position: absolute;
         top: -7px;
@@ -59,7 +59,7 @@ ul.dotted-round-list{
         padding: 0px 5px;
         .icon{border: medium none;}
         span{
-          color: $color-link;
+          //color: $color-link;
           border-bottom: 1px dashed $color-link;
           line-height: 1;
           font-size: 12px;
@@ -227,11 +227,14 @@ ul.dotted-round-list{
     height: 280px;
     .btn{z-index: 5;}
     &.full_hidden{
-      .all_link{top: -10px;position: relative;}
+      .all_link{top: -15px;position: relative;}
     }
     &.colored{
       .colored_item_link{
-        &:hover{text-decoration: none;span{border: medium none;}}
+        &:hover{
+          text-decoration: none;
+          span{border: medium none;text-decoration: underline; }
+        }
         display: block;
         position: absolute;
         top: -7px;
@@ -242,7 +245,7 @@ ul.dotted-round-list{
         padding: 0px 5px;
         .icon{border: medium none;}
         span{
-          color: $color-link;
+          //color: $color-link;
           border-bottom: 1px dashed $color-link;
           line-height: 1;
           font-size: 12px;
@@ -275,6 +278,12 @@ ul.dotted-round-list{
         //letter-spacing: -0.1px;
         //color: #00a3df;
       }
+    }
+    a{
+      //&:hover{
+      //  color: #ee2e24;
+      //  span{color: #ee2e24;}
+      //}
     }
   }
 .product-price{display: block;}

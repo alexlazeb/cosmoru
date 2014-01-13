@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+    <link href="http://fnt.webink.com/wfs/webink.css/?project=85797F87-DC42-4117-8FB5-653DD6EF7A26&fonts=73E6C83D-7F13-A8AE-4770-C315AE5061C3:f=MyriadPro-Regular,1421BCAA-4D56-EF9D-A008-8F0EFD21830C:f=MyriadPro-Bold,73FEA18A-033F-AE20-4C65-461CA87E3CF3:f=MyriadPro-It,F7BFE656-C078-45C2-FE87-230C4CB9A997:f=MyriadPro-SemiboldIt,050FBD0F-5D55-410F-DC57-586D49D25BCB:f=MyriadPro-Semibold,929B8C2C-C67C-8345-92BA-BFA9AFEEDF57:f=MyriadPro-BoldIt" rel="stylesheet" type="text/css"/>
     <!--<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen, projection" />-->
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/ie/ie-7.css" type="text/css" media="screen, projection" />
@@ -29,7 +30,6 @@
 <!--    <script src="js/jquery.js"></script>-->
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="js/modernizr.js"></script>
-    <!-- Add fancyBox main JS and CSS files -->
     <script src="js/script.js"></script>
 </head>
 
@@ -130,7 +130,7 @@
                         </p>
                         <h2>Подзаголовок</h2>
                         <p class="big">Для успешного оформления заказа в нашем магазине вам необходимо наполнить «Корзину». Для этого необходимо нажать на изображение корзинки рядом с выбранным товаром.</p>
-                        <p class="big">Для того чтобы оформить заказ вам необходимо зарегистрироваться. Для этого заполните все обязательные поля отмеченные звездочками и введите цифры подтверждения которые вы видите на картинке после этого нажмите зарегистрироваться. </p>
+                        <p class="big no-m">Для того чтобы оформить заказ вам необходимо зарегистрироваться. Для этого заполните все обязательные поля отмеченные звездочками и введите цифры подтверждения которые вы видите на картинке после этого нажмите зарегистрироваться. </p>
                         <ul class="line-disc">
                             <li>Осуществляется по адресу : Москва , 3-й Проезд Марьиной рощи 40 стр 1 </li>
                             <li>Выдачу осуществляет компания "Санвэй"</li>
